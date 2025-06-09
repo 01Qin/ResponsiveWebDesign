@@ -57,8 +57,14 @@
                         with the value text to the input element. -->
                         <input type="text" name="catphotourl" placeholder="cat photo URL" required>
                          <!-- use radio buttons for questions where you want only one answer out of multiple options. -->
-                        <label><input type="radio" id="indoor" name="indoor-outdoor"> Indoor</label>
-                        <label><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label>
+                            <fieldset>
+                                <!-- The legend element acts as a caption for the content in the fieldset element. -->
+                                <legend>Is your cat an indoor or outdoor cat?</legend>
+                        <label><input type="radio" id="indoor" name="indoor-outdoor" value="indoor"> Indoor</label>
+                        <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+                        <!-- The fieldset element is used to group related inputs and labels together in a web form. -->
+                            </fieldset>
+
 
                         <button type="Submit"></button>
                     </form>
