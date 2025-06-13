@@ -5,6 +5,7 @@ body {
     background-color: burlywood;
     background-image: url("https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg");
     font-family: sans-serif;
+
 }
 .menu {
     width: 80%;
@@ -25,6 +26,9 @@ body {
   width: 450%;
   text-align: right;
 }
-.dessert{
-
+h1, h2{
+    font-family: Impact, serif; /* add a fallback value, separated by a comma.*/
+}
+.established {
+    font-style: italic;
 }
