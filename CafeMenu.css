@@ -13,7 +13,7 @@ body {
 .item p {
   display: inline-block;
 }
-.flavor {
+.flavor, .dessert{
   width: 50%;
   text-align: left;
 }
@@ -21,4 +21,7 @@ body {
 .price {
   width: 450%;
   text-align: right;
+}
+.dessert{
+
 }
