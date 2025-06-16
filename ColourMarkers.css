@@ -12,11 +12,18 @@ h1 {
     margin-right: auto;
 }
 .one {
-    background-color: red;
+    /* The CSS rgb function accepts values, or arguments, for red, green, and blue, and produces a color:*/
+    /* Each red, green, and blue value is a number from 0 to 255. 0 means that there's 0% of that color, and is black.
+    255 means that there's 100% of that color.*/
+    background-color: rgb(255,0,0);
 }
 .two{
     background-color: green;
 }
 .three {
     background-color: blue;
+}
+.container {
+
+    background-color: rgb(0, 0, 0);
 }
