@@ -22,13 +22,14 @@ h1 {
     The linear-gradient function actually creates an image element, and is usually paired with the background property
     which can accept an image as a value.*/
 
-    background: rgb(255, 0, 0);
+    /* linear-gradient(gradientDirection, color1, color2, ...); */
+    background: linear-gradient(90deg, rgb(255, 0, 0));
 
 }
 /* Hex color values start with a # character and take six characters from 0-9 and A-F.
 The first pair of characters represent red, the second pair represent green, and the third pair represent blue.
 For example, #4B5320.*/
-.green{
+.green {
     /* There are three more tertiary colors: chartreuse green (green + yellow),
     azure (blue + cyan), and rose (red + magenta).*/
     background-color: #007F00;
