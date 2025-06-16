@@ -34,7 +34,7 @@ For example, #4B5320.*/
 .green {
     /* There are three more tertiary colors: chartreuse green (green + yellow),
     azure (blue + cyan), and rose (red + magenta).*/
-    background-color: #007F00;
+    background: linear-gradient(180deg, #55680D, #71F53E, #116C31);
 }
 /* With hex colors, 00 is 0% of that color, and FF is 100%.
 So #00FF00 translates to 0% red, 100% green, and 0% blue, and is the same as rgb(0, 255, 0).*/
