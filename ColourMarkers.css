@@ -12,19 +12,22 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 }
-.one {
+.red {
     /* The CSS rgb function accepts values, or arguments, for red, green, and blue, and produces a color:*/
     /* Each red, green, and blue value is a number from 0 to 255. 0 means that there's 0% of that color, and is black.
     255 means that there's 100% of that color.*/
-    background-color: rgb(127, 255,0);
+    background-color: rgb(255, 0, 0);
 
 }
-.two{
+/* Hex color values start with a # character and take six characters from 0-9 and A-F.
+The first pair of characters represent red, the second pair represent green, and the third pair represent blue.
+For example, #4B5320.*/
+.green{
     /* There are three more tertiary colors: chartreuse green (green + yellow),
     azure (blue + cyan), and rose (red + magenta).*/
-    background-color: rgb(0,127,255);
+    background-color: #00FF00;
 }
-.three {
+.blue {
     background-color: rgb(255,0,127);
 }
 .container {
