@@ -71,6 +71,14 @@ Lightness is how bright a color appears, from 0%, or complete black, to 100%, co
     Another way to set the opacity for an element is with the alpha channel. */
     opacity: 0.5;
     border-left-width: 10px;
+
+    /* If no color is set, black is used by default.*/
+    border-left-style: solid;
+    border-left-color: black;
+    /* The border-left shorthand property lets you to set the left border's width, style, and color at the same time.
+    e.g. border-left: width style color;*/
+    /* border-left: 10px solid black */
+    /* border-left: 10px double rgba(0, 0, 0, 75%); */
 }
 .cap {
     width: 60px;
