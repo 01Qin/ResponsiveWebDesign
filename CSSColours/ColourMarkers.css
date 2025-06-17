@@ -51,6 +51,7 @@ to the saturation and lightness values.
 Lightness is how bright a color appears, from 0%, or complete black, to 100%, complete white, with 50% being neutral.*/
 .blue {
     background-color: hsl(240, 100%, 50%);
+    /* color: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%),hsl(240, 56%, 42%)); */
 
 }
 .container {
