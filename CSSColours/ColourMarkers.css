@@ -85,7 +85,7 @@ Lightness is how bright a color appears, from 0%, or complete black, to 100%, co
     height: 25px;
 }
 
-/*# new cap div is taking up the entire width of the marker, and is pushing the sleeve down to the next line.
+/* new cap div is taking up the entire width of the marker, and is pushing the sleeve down to the next line.
 To position two div elements on the same line, set their display properties to inline-block. */
 .cap, .sleeve{
     display: inline-block;
