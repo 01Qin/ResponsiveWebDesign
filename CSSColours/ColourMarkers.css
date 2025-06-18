@@ -32,6 +32,8 @@ h1 {
     a positive offsetY value moves the shadow down and a negative value moves it up. */
     box-shadow: 5px 5px red;
 
+    /*  box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8); */
+
 }
 /* Hex color values start with a # character and take six characters from 0-9 and A-F.
 The first pair of characters represent red, the second pair represent green, and the third pair represent blue.
@@ -44,6 +46,7 @@ e.g., #4B5320.*/
     /* box-shadow: offsetX offsetY blurRadius color; */
     /* The higher the value of blurRadius, the greater the blurring effect is. */
     box-shadow: 5px 5px 5px green;
+    /* box-shadow: 0 0 20px 0 #3B7E20CC; */
 }
 /* With hex colors, 00 is 0% of that color, and FF is 100%.
 So #00FF00 translates to 0% red, 100% green, and 0% blue, and is the same as rgb(0, 255, 0).*/
@@ -59,8 +62,13 @@ to the saturation and lightness values.
 
 Lightness is how bright a color appears, from 0%, or complete black, to 100%, complete white, with 50% being neutral.*/
 .blue {
-    background-color: hsl(240, 100%, 50%);
     /* color: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%),hsl(240, 56%, 42%)); */
+    background-color: hsl(240, 100%, 50%);
+
+    box-shadow: 0 0 0 5px blue;
+    /* box-shadow: offsetX offsetY blurRadius spreadRadius color; */
+    /* spreadRadius --> expand the shadow out further*/
+    /* box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.8); */
 
 }
 .container {
