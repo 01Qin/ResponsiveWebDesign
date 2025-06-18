@@ -1,0 +1,8 @@
+body{
+    width: 100%;
+    /* The vh unit stands for viewport height, and is equal to 1% of the height of the viewport.  */
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7
+}
