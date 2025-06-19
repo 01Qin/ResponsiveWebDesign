@@ -22,12 +22,13 @@
             <input id="new-password" type="password" required pattern="[a-z0-5]{8,}"></label>
 
             <!-- <input id="new-password" type="password" required minlength="8"></label> -->
-        <!-- required: make the form more interactive-->
+        <!-- required: make the form more interactive, indicate that an input is required -->
     </fieldset>
 
     <fieldset>
-        <label> <input type="radio"></label>
-        <label> <input type="radio"></label>
+        <legend> Account type (required) </legend>
+        <label for="personal-account"> <input type="radio" name="account-type" checked id="personal-account"> Personal</label>
+        <label for="business-account"> <input type="radio" name="account-type" id="business-account"> Business</label>
 
     </fieldset>
 
