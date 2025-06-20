@@ -27,14 +27,29 @@
 
     <fieldset>
         <legend> Account type (required) </legend>
-        <label for="personal-account"> <input type="radio" name="account-type" checked id="personal-account"> Personal</label>
+        <label for="personal-account">
+            <input type="radio" name="account-type" checked id="personal-account"> Personal</label>
         <label for="business-account"> <input type="radio" name="account-type" id="business-account"> Business</label>
 
     </fieldset>
 
     <fieldset>
+        <label> Upload a profile picture: <input type="file"></label>
+        <label> Input your age (years): <input type="number" min="13" max="120"></label>
+        <!-- The select element is a container for a group of option elements,
+        and the option element acts as a label for each dropdown option. -->
+        <select>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+            <option> </option>
+        </select>
 
     </fieldset>
+    <label for="terms-and-conditions">
+        <input type="checkbox" required id="terms-and-conditions">I accept the
+        <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a> </label>
     <!-- The first input element with a type of submit is automatically set to submit its nearest parent form element.-->
     <input type="submit" value="Submit">
 
