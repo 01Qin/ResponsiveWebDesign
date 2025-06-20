@@ -34,13 +34,13 @@
     </fieldset>
 
     <fieldset>
-        <label> Upload a profile picture: <input type="file" id="profile-picture"></label>
-        <label> Input your age (years): <input type="number" min="13" max="120" id="age"></label>
+        <label for="profile-picture"> Upload a profile picture: <input type="file" id="profile-picture"></label>
+        <label for="age"> Input your age (years): <input type="number" min="13" max="120" id="age"></label>
         <!-- The select element is a container for a group of option elements,
         and the option element acts as a label for each dropdown option. -->
 
-        <label> How did you hear about us?
-            <select>
+        <label for="referrer"> How did you hear about us?
+            <select id="referrer">
                 <option value=""> (select one) </option>
                 <option value="1"> News </option>
                 <option value="2"> YouTube Channel </option>
@@ -52,7 +52,7 @@
         <!-- The textarea element acts like an input element of type text,
         but comes with the added benefit of being able to receive multi-line text,
         and an initial number of text rows and columns.-->
-        <label for="bio"> Provide a bio: <textarea> </textarea></label>
+        <label for="bio"> Provide a bio: <textarea id="bio"> </textarea></label>
 
     </fieldset>
     <label for="terms-and-conditions">
