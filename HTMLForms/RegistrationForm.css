@@ -20,3 +20,17 @@ h1, p {
     text-align: center;
     margin: 1em auto;
 }
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+}
+fieldset {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: none;
+    padding-right: 0;
+    padding-left: 0;
+    border-bottom: 3px solid #3b3b4f;
+}
