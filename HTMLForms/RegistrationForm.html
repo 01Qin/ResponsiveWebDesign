@@ -19,7 +19,7 @@
         The password type obscures the input, and warns if the site does not use HTTPS.-->
         <label for="email"> Enter Your Email: <input id="email" type="email" required></label>
         <label for="new-password"> Create a New Password:
-            <input id="new-password" type="password" required pattern="[a-z0-5]{8,}"></label>
+            <input id="new-password" type="password" required pattern="[a-z0-5]{8,}" name="password"></label>
 
             <!-- <input id="new-password" type="password" required minlength="8"></label> -->
         <!-- required: make the form more interactive, indicate that an input is required -->
@@ -34,13 +34,16 @@
     </fieldset>
 
     <fieldset>
-        <label for="profile-picture"> Upload a profile picture: <input type="file" id="profile-picture"></label>
-        <label for="age"> Input your age (years): <input type="number" min="13" max="120" id="age"></label>
+        <label for="profile-picture"> Upload a profile picture:
+            <input type="file" id="profile-picture" name="profile-picture"></label>
+
+        <label for="age"> Input your age (years):
+            <input type="number" min="13" max="120" id="age" name="age"></label>
         <!-- The select element is a container for a group of option elements,
         and the option element acts as a label for each dropdown option. -->
 
         <label for="referrer"> How did you hear about us?
-            <select id="referrer">
+            <select id="referrer" name="referrer">
                 <option value=""> (select one) </option>
                 <option value="1"> News </option>
                 <option value="2"> YouTube Channel </option>
@@ -52,14 +55,17 @@
         <!-- The textarea element acts like an input element of type text,
         but comes with the added benefit of being able to receive multi-line text,
         and an initial number of text rows and columns.-->
-        <label for="bio"> Provide a bio: <textarea id="bio"> </textarea></label>
+        <label for="bio"> Provide a bio:
+            <textarea id="bio" rows="3" cols="30" placeholder="I like coding on the beach..." name="bio"> </textarea></label>
+            <!-- The placeholder accepts a text value, which is displayed until the user starts typing.-->
+
 
     </fieldset>
     <label for="terms-and-conditions">
         <input type="checkbox" required id="terms-and-conditions">I accept the
         <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a> </label>
     <!-- The first input element with a type of submit is automatically set to submit its nearest parent form element.-->
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit" name="terms">
 
 </form>
 
