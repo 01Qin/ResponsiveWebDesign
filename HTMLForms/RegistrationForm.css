@@ -34,3 +34,14 @@ fieldset {
     padding-left: 0;
     border-bottom: 3px solid #3b3b4f;
 }
+fieldset:last-of-type{
+    /* select the last element of a specific type using the last-of-type CSS pseudo-class. */
+    border-bottom: none;
+}
+input, textarea, select {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+}
