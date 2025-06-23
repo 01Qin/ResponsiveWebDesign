@@ -6,4 +6,16 @@
 
 .frame {
     border: 50px solid black;
+    width: 500px;
+    /* Use padding to adjust the spacing within an element. */
+    padding: 50px;
+    /* Use margins to adjust the spacing outside of an element. */
+    margin: 20px auto;
+}
+.one{
+    width: 425px;
+    height: 150px;
+    background-color: #efb762;
+    /* a vertical margin of 20px and a horizontal margin of auto */
+    margin: 20px auto;
 }
