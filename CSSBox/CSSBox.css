@@ -2,6 +2,7 @@
     width: 500px;
     height: 600px;
     background-color: #4d0f00;
+    overflow: hidden;
 }
 
 .frame {
@@ -18,4 +19,5 @@
     background-color: #efb762;
     /* a vertical margin of 20px and a horizontal margin of auto */
     margin: 20px auto;
+
 }
