@@ -13,5 +13,17 @@ img {
     Padding and border values get added to the total width,
     so the element grows to accommodate these values.*/
     box-sizing: content-box;
+    /* border-box: border-box; The border-box sizing model does the opposite of content-box.
+    The total width of the element, including padding and border, will be the explicit width set.
+    The content of the element will shrink to make room for the padding and border.*/
 }
-
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f5f6f7;
+}
