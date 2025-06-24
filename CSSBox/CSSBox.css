@@ -19,5 +19,10 @@
     background-color: #efb762;
     /* a vertical margin of 20px and a horizontal margin of auto */
     margin: 20px auto;
-
+}
+.two {
+    width: 475px;
+    height: 200px;
+    background-color: #8f0401;
+    margin: auto;
 }
