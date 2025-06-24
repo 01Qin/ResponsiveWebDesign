@@ -22,6 +22,10 @@ img {
     width: 100%;
     max-width: 350px;
     height: 300px;
+    /* the images have different aspect ratios. use the object-fit property to determine how images should behave.
+    This will tell the image to fill the img container while maintaining aspect ratio, resulting in cropping to fit.*/
+    object-fit: cover;
+    border-radius: 10px;
 }
 body {
     margin: 0;
@@ -57,4 +61,11 @@ column-reverse: vertical axis with flex items from bottom to top
     justify-content: center;
     /* The align-items property positions the flex content along the cross axis. */
     align-items: center;
+    padding: 20px 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+    /* The gap CSS shorthand property sets the gaps, also known as gutters, between rows and columns.
+    The gap property and its row-gap and column-gap sub-properties provide this functionality for flex,
+    grid, and multi-column layout. */
+    gap: 16px;
 }
