@@ -34,6 +34,7 @@
     box-shadow: 0 0 3px 3px #8f0401;
     /* set its top-left radius and bottom-right radius to 8px, and top-right radius and bottom-left radius to 10px. */
     border-radius: 8px 10px;
+    transform: rotate(0.4deg);
 }
 .three {
     width: 91%;
@@ -45,6 +46,8 @@
     /* Round the top-left corner by 30 pixels, the top-right by 25 pixels,
     the bottom-right by 60 pixels, and bottom-left by 12 pixels.*/
     border-radius: 30px 25px 60px 12px;
+    /* Rotate .three counter clockwise by 0.2 degrees */
+    transform: rotate(-0.2deg);
 }
 .one, .two {
     filter: blur(1px);
