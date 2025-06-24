@@ -23,6 +23,8 @@
     box-shadow: 0 0 3px 3px #efb762;
     /* Round the corners of each rectangle */
     border-radius: 9px;
+    /* Rotate each rectangle to give them more of an imperfect, hand-painted look. */
+    transform: rotate(-0.6deg);
 }
 .two {
     width: 475px;
@@ -30,6 +32,8 @@
     background-color: #8f0401;
     margin: 0 auto 20px;
     box-shadow: 0 0 3px 3px #8f0401;
+    /* set its top-left radius and bottom-right radius to 8px, and top-right radius and bottom-left radius to 10px. */
+    border-radius: 8px 10px;
 }
 .three {
     width: 91%;
@@ -38,6 +42,9 @@
     margin: auto;
     filter: blur(2px);
     box-shadow: 0 0 5px 5px #b20403;
+    /* Round the top-left corner by 30 pixels, the top-right by 25 pixels,
+    the bottom-right by 60 pixels, and bottom-left by 12 pixels.*/
+    border-radius: 30px 25px 60px 12px;
 }
 .one, .two {
     filter: blur(1px);
