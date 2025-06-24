@@ -1,3 +1,4 @@
+/*
 .gallery {
     width: 50%;
     border: 5px solid red;
@@ -6,7 +7,7 @@ img {
     width: 100%;
     padding: 5px;
     border: 5px solid blue;
-}
+}*/
 * {
     /* With this model, when an element has a specific width,
     that width is calculated based only on the element's content.
@@ -26,4 +27,15 @@ body {
     margin: 0;
     font-family: sans-serif;
     background-color: #f5f6f7;
+}
+.header {
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    text-align: center;
+    color: #fff;
+    border-bottom: 4px solid #fdb347;
+}
+.gallery {
+    display: flex;
 }
