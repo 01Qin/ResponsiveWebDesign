@@ -1,0 +1,17 @@
+.gallery {
+    width: 50%;
+    border: 5px solid red;
+}
+img {
+    width: 100%;
+    padding: 5px;
+    border: 5px solid blue;
+}
+* {
+    /* With this model, when an element has a specific width,
+    that width is calculated based only on the element's content.
+    Padding and border values get added to the total width,
+    so the element grows to accommodate these values.*/
+    box-sizing: content-box;
+}
+
