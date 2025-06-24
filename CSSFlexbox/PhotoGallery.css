@@ -69,3 +69,12 @@ column-reverse: vertical axis with flex items from bottom to top
     grid, and multi-column layout. */
     gap: 16px;
 }
+/* The ::after pseudo-element creates an element that is the last child of the selected element.
+e.g, .container::after {
+  content: "";
+  width: 860px;
+}*/
+.gallery::after {
+    content: "";
+    width: 350px;
+}
