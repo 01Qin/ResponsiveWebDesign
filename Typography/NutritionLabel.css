@@ -6,4 +6,20 @@ html {
 }
 .label {
     border: 2px solid black;
+    /* it's actually 288 pixels wide instead of 270. This is because, by default,
+    the browser includes the border and padding when determining an element's size.
+    to solve this, reset the box model by creating a * selector. */
+    width: 270px;
+    margin: 20px auto;
+    padding: 0 7px;
+}
+* {
+    box-sizing: border-box;
+}
+h1 {
+    /* make h1 text bolder */
+    font-weight: 800;
+    text-align: center;
+    /* giving it a top and bottom margin of -4px and a left and right margin of 0. */
+    margin: -4px 0;
 }
