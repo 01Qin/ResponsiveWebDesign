@@ -16,9 +16,8 @@ html {
 * {
     box-sizing: border-box;
 }
-h1 {
+header h1 {
     /* make h1 text bolder */
-    font-weight: 800;
     text-align: center;
     /* giving it a top and bottom margin of -4px and a left and right margin of 0. */
     margin: -4px 0;
@@ -27,8 +26,14 @@ h1 {
 }
 p {
     margin: 0;
+    /* add the horizontal spacing using flex */
+    display: flex;
+    justify-content: space-between;
 }
 .divider {
     border-bottom: 1px solid #888989;
     margin: 2px 0;
+}
+.bold {
+    font-weight: 800;
 }
