@@ -22,4 +22,13 @@ h1 {
     text-align: center;
     /* giving it a top and bottom margin of -4px and a left and right margin of 0. */
     margin: -4px 0;
+    /* The letter-spacing property can be used to adjust the space between each character of text in an element.*/
+    letter-spacing: 0.15px;
+}
+p {
+    margin: 0;
+}
+.divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
 }
