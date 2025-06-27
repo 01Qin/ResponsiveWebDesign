@@ -77,6 +77,9 @@ p {
 .indent {
     margin-left: 1em;
 }
-.daily-value p {
+/* The :not pseudo-selector can be used to select all elements that do not match the given CSS rule.
+id of .no-divider */
+.daily-value p:not(.no-divider) {
     border-bottom: 1px solid #888989;
+
 }
