@@ -83,3 +83,13 @@ id of .no-divider */
     border-bottom: 1px solid #888989;
 
 }
+.double-indent {
+    margin-left: 2em;
+}
+.note {
+    font-size: 0.6rem;
+    margin: 5px 0;
+    /* a left and right padding of 8px, removing the top and bottom padding. */
+    padding: 0 8px;
+    text-indent: -8px;
+}
