@@ -15,3 +15,10 @@ h1 {
     color: #f1be32;
     font-size: min(5vw, 1.2em);
 }
+/* The child combinator selector > is used between selectors to target only elements that match the second selector
+and are a direct child of the first selector.
+This can be helpful when you have deeply nested elements and want to control the scope of your styling. */
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+}
