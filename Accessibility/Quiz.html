@@ -57,10 +57,12 @@
                         <ul class="answers-list">
                             <li>
                                 <!-- for attribute: link a label with its corresponding input element. -->
-                                <label for="q1-a1"><input type="radio" id="q1-a1" value="true">True</label>
+                                <label for="q1-a1"><input type="radio" id="q1-a1" value="true" name="q1-a1">True</label>
                             </li>
                             <li>
-                                <label for="q1-a2"><input type="radio" id="q1-a2" value="false">False</label>
+                                <!-- name="q1-a1": group the relevant inputs together such that only one input
+                                from a pair can be selected at a time.-->
+                                <label for="q1-a2"><input type="radio" id="q1-a2" value="false" name="q1-a1">False</label>
                             </li>
                         </ul>
 
@@ -75,10 +77,10 @@
                         <ul class="answers-list">
 
                             <li>
-                                <label for="q2-a1"><input type="radio" id="q2-a1" value="true">True</label>
+                                <label for="q2-a1"><input type="radio" id="q2-a1" value="true" name="q2-a1">True</label>
                             </li>
                             <li>
-                                <label for="q2-a2"><input type="radio" id="q2-a2" value="false">False</label>
+                                <label for="q2-a2"><input type="radio" id="q2-a2" value="false" name="q2-a1">False</label>
                             </li>
                         </ul>
 
