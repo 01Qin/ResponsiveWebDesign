@@ -16,7 +16,7 @@ header {
 
 }
 main {
-    padding-top: 25px;
+    padding-top: 50px;
 }
 h1 {
     color: #f1be32;
@@ -32,6 +32,8 @@ h1, h2 {
 }
 h2 {
     border-bottom: 4px solid #dfdfe2;
+    margin-top: 0;
+    padding-top: 60px;
 }
 .sr-only {
       /* a common pattern to visually hide text for only screen reader to read. */
@@ -79,4 +81,9 @@ nav > ul > li:hover {
     color: #1b1b32;
     background-color: #dfdfe2;
     cursor: pointer;
+}
+section {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto 10px auto;
 }
