@@ -27,6 +27,7 @@
 </header>
     <main>
         <form action="https://freecodecamp.org/practice-project/accessibility-quiz" method="post">
+
             <!-- To increase the page accessibility, the role attribute can be used to indicate the purpose
             behind an element on the page to assistive technologies.-->
         <section role="region" aria-labelledby="student-info">
@@ -92,11 +93,11 @@
             <h2 id="css-questions"> CSS</h2>
             <div class="form-row">
                 <div class="question-block">
-                    <label>question</label>
+                    <label for="selector">Can the CSS margin property accept negative values?</label>
                 </div>
 
                 <div class="answer">
-                    <select required>
+                    <select required id="selector" name="selector">
                         <option value=""> Select an option</option>
                         <option value="yes">Yes</option>
                         <option value="no">No</option>
@@ -104,10 +105,11 @@
 
                 </div>
                 <div class="question-block">
-                    <label>Can the CSS margin property accept negative values?</label>
+                    <label for="css-textarea">Do you have any questions:</label>
                 </div>
                 <div class="answer">
-                    <select required>
+                    <textarea rows="5" cols="24" id="css-textarea" name="css-questions"></textarea>
+                    <select required >
                         <option></option>
                         <option></option>
                         <option></option>
@@ -115,6 +117,7 @@
                 </div>
             </div>
         </section>
+            <button type="submit">Send</button>
             </form>
 
     </main>
