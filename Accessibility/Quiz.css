@@ -45,6 +45,12 @@ h2 {
     clip-path: inset(50%);
     white-space: nowrap;
 }
+/* Make the h3 elements appear as a higher priority */
+h3 {
+    margin-top: 5px;
+    padding-left: 15px;
+    font-size: 1.375rem;
+}
 /* To prevent unnecessary repetition, target the before pseudo-element of the h3 element. */
 h3::before {
     content: "Question #";
@@ -109,10 +115,19 @@ section {
 input {
     font-size: 13px;
 }
+/* neaten the .question-block elements */
 .question-block {
     text-align: left;
     display: block;
     width: 100%;
     margin-top: 20px;
     padding-top: 5px;
+}
+.question {
+    border: none;
+     padding-bottom: 0;
+}
+.answers-list {
+    list-style: none;
+    padding: 0;
 }
