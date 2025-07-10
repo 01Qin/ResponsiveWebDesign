@@ -1,12 +1,9 @@
 * {
-    background: #888989;
+    background: floralwhite;
 }
-img {
-    max-width: 100%;
-    display: block;
-}
+
 #image {
     height: auto;
-    justify-content: center;
+    display: block;
     max-width: 100%;
 }
