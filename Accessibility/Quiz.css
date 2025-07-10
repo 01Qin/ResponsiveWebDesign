@@ -90,6 +90,14 @@ section {
 .info {
     padding: 10px 0 0 5px;
 }
+.info input {
+    width: 50%;
+    text-align: left;
+}
+.info label {
+    width: 10%;
+    min-width: 55px;
+}
 .form-row {
     margin-top: 20px;
     padding: 0 1px 0 1px;
