@@ -1,0 +1,9 @@
+img {
+    max-width: 100%;
+    display: block;
+}
+#image {
+    height: auto;
+    justify-content: center;
+    max-width: 100%;
+}
