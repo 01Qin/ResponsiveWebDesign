@@ -25,7 +25,23 @@
 
         <div class="table-wrap">
             <!-- HTML tables use the caption element to describe what the table is about. -->
-            <table><caption>Assets</caption></table>
+            <table>
+                <caption>Assets</caption>
+                <!-- The thead and tbody elements are used to indicate which portion of your table is the header,
+                and which portion contains the primary data or content.-->
+                <thead>
+                <!-- The tr element is used to indicate a table row.
+                The td element indicates a data cell, while the th element indicates a header cell. -->
+                <tr>
+                    <td>
+                        <th><span class="sr-only year">2023</span></th>
+                        <th><span class="sr-only year">2024</span></th>
+                        <th class="current"><span class="sr-only year">2025</span></th>
+                    </td>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
             <table></table>
             <table></table>
         </div>
