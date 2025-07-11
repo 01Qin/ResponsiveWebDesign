@@ -3,20 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Balance Sheet</title>
   <link href="BalanceSheet.css" rel="stylesheet">
 </head>
 <body>
 <main>
     <section>
-        <h1><span class="flex">
-            <span>AcmeWidgetCorp</span>
-            <span>Balance Sheet</span>
-        </span></h1>
+        <h1>
+            <span class="flex">
+                <span>AcmeWidgetCorp</span>
+                <span>Balance Sheet</span>
+            </span>
+        </h1>
         <!-- want this particular element to be hidden from screen readers,
         so give it the aria-hidden attribute set to true.-->
         <div id="years" aria-hidden="true">
+            <span class="year">2023</span>
+            <span class="year">2024</span>
+            <span class="year">2025</span>
+        </div>
 
+        <div class="table-wrap">
+            <!-- HTML tables use the caption element to describe what the table is about. -->
+            <table><caption>Assets</caption></table>
+            <table></table>
+            <table></table>
         </div>
     </section>
 </main>
