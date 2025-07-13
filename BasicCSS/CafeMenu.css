@@ -1,6 +1,7 @@
 h1, h2, p {
             text-align: center;
         }
+
 body {
     background-color: burlywood;
     background-image: url("https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg");
@@ -14,6 +15,7 @@ body {
     margin-right: auto;
     padding: 20px;
     max-width: 500px;
+    background-color: burlywood;
 }
 .item p {
   display: inline-block;
