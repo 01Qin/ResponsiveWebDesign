@@ -1,0 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    color: #0a0a23;
+}
+/* will select any span element whose class includes sr-only. */
+span[class~="sr-only"] {
+    border: 0;
+}
