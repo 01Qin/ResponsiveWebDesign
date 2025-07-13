@@ -7,20 +7,22 @@ body {
 }
 /* will select any span element whose class includes sr-only. */
 span[class~="sr-only"] {
-    border: 0;
+    /* use the !important keyword to ensure these earlier properties are always applied,
+    regardless of order or specificity. */
+    border: 0 !important;
     /* clip property is used to define the visible portions of an element. */
-    clip: rect(1px, 1px, 1px, 1px);
+    clip: rect(1px, 1px, 1px, 1px) !important;
     /* The clip-path property determines the shape the clip property should take. */
-    clip-path: inset(50%);
-    width: 1px;
-    height: 1px;
-    white-space: nowrap;
+    clip-path: inset(50%) !important;
+    width: 1px !important;
+    height: 1px !important;
+    white-space: nowrap !important;
     /* To prevent the text content from overflowing. */
-    overflow: hidden;
+    overflow: hidden !important;
     /* take these hidden elements out of the document flow. */
-    position: absolute;
-    padding: 0;
-    margin: -1px;
+    position: absolute !important;
+    padding: 0 !important;
+    margin: -1px !important;
 }
 h1 {
     max-width: 37.25rem;
@@ -64,4 +66,12 @@ regardless of the attribute's value. */
     font-weight: bold;
     width: 4.5rem;
     text-align: right;
+}
+.table-wrap {
+    padding: 0 0.75rem 1.5rem 0.75rem;
+}
+/* The :not() pseudo-selector is used to target all elements that do not match the selector - in this case,
+any of your span elements that do not have the sr-only class.  */
+span:not(.sr-only) {
+    font-weight: normal;
 }
