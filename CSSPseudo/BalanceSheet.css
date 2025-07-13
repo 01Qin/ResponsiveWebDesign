@@ -72,6 +72,17 @@ regardless of the attribute's value. */
 }
 /* The :not() pseudo-selector is used to target all elements that do not match the selector - in this case,
 any of your span elements that do not have the sr-only class.  */
-span:not(.sr-only) {
+/* span:not(.sr-only) {
     font-weight: normal;
+} */
+/* since i've added the !important keyword, i can remove the :not(.sr-only) from the span selector.*/
+span {
+    font-weight: normal;
+}
+table {
+    border-collapse: collapse;
+    border: 0;
+    width: 100%;
+    margin-top: 3rem;
+    position: relative;
 }
