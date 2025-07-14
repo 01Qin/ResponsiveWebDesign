@@ -68,7 +68,8 @@ Lightness is how bright a color appears, from 0%, or complete black, to 100%, co
 }
 .container {
     background-color: rgb(255, 255, 255);
-    padding: 10px 0;
+    padding:  0 140px;
+
 }
 .sleeve {
     width: 110px;
