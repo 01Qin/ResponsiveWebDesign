@@ -3,17 +3,12 @@ h1 {
     /* The CSS rgb function accepts values, or arguments, for red, green, and blue, and produces a color:*/
     /* Each red, green, and blue value is a number from 0 to 255. 0 means that there's 0% of that color, and is black.
     255 means that there's 100% of that color.*/
-    background-color: rgb(0, 255, 255);
+    /* background-color: rgb(0, 255, 255); */
 }
 .marker {
-
     height: 25px;
     width: 200px;
-    margin: 10px auto;
-    margin-top: auto;
-    margin-right: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto auto 10px;
 }
 .red {
     /* A gradient is when one color transitions into another.
