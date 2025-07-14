@@ -58,9 +58,9 @@ to the saturation and lightness values.
 Lightness is how bright a color appears, from 0%, or complete black, to 100%, complete white, with 50% being neutral.*/
 .blue {
     /* color: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%),hsl(240, 56%, 42%)); */
-    background-color: hsl(240, 100%, 50%);
+    background: hsl(240, 100%, 50%);
 
-    box-shadow: 0 0 0 5px blue;
+    box-shadow: 5px 5px 5px blue;
     /* box-shadow: offsetX offsetY blurRadius spreadRadius color; */
     /* spreadRadius --> expand the shadow out further*/
     /* box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.8); */
