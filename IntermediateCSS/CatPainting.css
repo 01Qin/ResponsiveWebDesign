@@ -9,4 +9,16 @@ body {
     height: 180px;
     border: 1px solid #000;
     border-radius: 46%;
+    background: linear-gradient(#5e5e5e 85%, #45454f 100%);
+    /* static is the default positioning for all elements. If you assign it to an element,
+    you won't be able to move it around with top, right, left, or bottom.
+
+    position: static;
+
+    When you use the absolute value for your position property,
+    the element is taken out of the normal flow of the document, and then its position is determined
+    by the top, right, bottom, and left properties.*/
+    position: relative;
+    top: 100px;
+    left: 100px;
 }
