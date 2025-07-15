@@ -76,9 +76,11 @@ any of your span elements that do not have the sr-only class.  */
     font-weight: normal;
 } */
 /* since i've added the !important keyword, i can remove the :not(.sr-only) from the span selector.*/
+
+/* span elements now all have more specific styling, which means i can remove the span rule.
 span {
     font-weight: normal;
-}
+} */
 table {
     border-collapse: collapse;
     border: 0;
@@ -141,4 +143,12 @@ tr.data th .description {
     padding: 1rem 0 0.75rem;
     margin-right: -13.5rem;
     display: block;
+}
+tr.data td {
+    vertical-align: top;
+    text-align: right;
+    padding: 0.3rem 0.25rem 0;
+}
+tr.data td:last-of-type {
+    padding-right: 0.5rem;
 }
