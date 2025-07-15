@@ -54,7 +54,7 @@ section {
     position: sticky;
     top: 0;
     color: #fff;
-    background-color: #0a0a23;
+    background: #0a0a23;
     margin: 0 -2px;
     /* The calc() function is a CSS function that allows you to calculate a value based on other values. */
     padding: 0.5rem calc(1.25rem + 2px) 0.5rem 0;
@@ -123,4 +123,22 @@ tr.total td:nth-of-type(3) {
 }
 tr.total:hover {
     background-color: #99c9ff;
+}
+td.current {
+    font-style: italic;
+}
+tr.data {
+    background: linear-gradient( to bottom, #dfdfe2 1.845rem, white 1.845rem);
+}
+tr.data th {
+    text-align: left;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+}
+tr.data th .description {
+    font-style: italic;
+    font-weight: normal;
+    padding: 1rem 0 0.75rem;
+    margin-right: -13.5rem;
+    display: block;
 }
