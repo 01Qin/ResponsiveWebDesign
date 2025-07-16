@@ -57,4 +57,11 @@ body {
     border-left: 35px solid transparent;
     border-right: 35px solid transparent;
     border-bottom: 70px solid #5e5e5e;
+    /* those edges are too sharp for an ear. */
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+    /* he transform property allows you to modify the shape, position,
+    and size of an element without changing the layout or affecting the surrounding elements.
+    It has functions such as translate(), rotate(), scale(), skew(), and matrix(). */
+    transform: rotate(-45deg);
 }
