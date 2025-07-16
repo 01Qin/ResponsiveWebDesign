@@ -75,6 +75,9 @@ body {
     position: absolute;
     top: 22px;
     left: -20px;
+    /* a bottom-right and bottom-left border radius of 40% each,
+    a top-left border radius of 90px, and a top-right border radius of 10px */
+    border-radius: 90px 10px 40% 40%;
 }
 .cat-right-ear {
     border-left: 35px solid transparent;
@@ -88,5 +91,13 @@ body {
     border-top-left-radius: 90px;
     border-top-right-radius: 10px;
     z-index: 1;
-
+}
+.cat-right-inner-ear {
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid rosybrown;
+    position: absolute;
+    top: 22px;
+    left: -20px;
+    border-radius: 90px 10px 40% 40%;
 }
