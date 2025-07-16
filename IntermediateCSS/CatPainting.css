@@ -17,8 +17,25 @@ body {
 
     When you use the absolute value for your position property,
     the element is taken out of the normal flow of the document, and then its position is determined
-    by the top, right, bottom, and left properties.*/
-    position: relative;
-    top: 100px;
-    left: 100px;
+    by the top, right, bottom, and left properties.
+    The last position property value is sticky. sticky positioning is a hybrid of relative and fixed positioning.
+    It allows an element to stick to a specific position within its containing element or viewport,
+    based on the scroll position. */
+    position: absolute;
+    /* Set a value of 0 for the right, left, top, bottom properties, then set its margin property on all sides to auto.
+    That's one way to center an element vertically and horizontally using CSS positioning. */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+}
+.box {
+    width: 200px;
+    height: 600px;
+    background-color: #000;
+    position: absolute;
+    top: 800px;
+    left: 650px;
 }
