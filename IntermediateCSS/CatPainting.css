@@ -64,6 +64,9 @@ body {
     and size of an element without changing the layout or affecting the surrounding elements.
     It has functions such as translate(), rotate(), scale(), skew(), and matrix(). */
     transform: rotate(-45deg);
+    /* z-index is a property to define the order of overlapping HTML elements.
+    Any element with a higher z-index will always be positioned over an element with a lower z-index. */
+    z-index: -1;
 }
 .cat-right-ear {
     border-left: 35px solid transparent;
