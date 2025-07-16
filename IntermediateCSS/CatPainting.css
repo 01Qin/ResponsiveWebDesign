@@ -31,11 +31,30 @@ body {
     margin: auto;
 
 }
-.box {
+/* .box {
     width: 200px;
     height: 600px;
     background-color: #000;
     position: absolute;
     top: 800px;
     left: 650px;
+} */
+/* .cat-right-ear {
+    height: 0;
+    width: 0;
+
+    border-top: 35px solid transparent;
+    border-left: 35px solid transparent;
+    border-bottom: 35px solid red;
+    border-right: 35px solid transparent;
+} */
+.cat-left-ear {
+    height: 0;
+    width: 0;
+    top: -26px;
+    left: -31px;
+    position: absolute;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid #5e5e5e;
 }
