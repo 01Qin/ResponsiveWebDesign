@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #c9d2fc;
+    background-color: #b5a584;
 }
 .cat-head {
     width: 205px;
@@ -104,7 +104,7 @@ body {
 .cat-left-eye {
     width: 30px;
     height: 40px;
-    background-color: #586144;
+    background-color: #768061;
     position: absolute;
     top: 54px;
     left: 39px;
@@ -124,7 +124,7 @@ body {
 .cat-right-eye {
     width: 30px;
     height: 40px;
-    background-color: #586144;
+    background-color: #768061;
     position: absolute;
     top: 54px;
     left: 134px;
