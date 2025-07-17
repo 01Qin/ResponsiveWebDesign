@@ -115,6 +115,11 @@ body {
     width: 10px;
     height: 20px;
     background-color: #fff;
+    position: absolute;
+    top: 8px;
+    left: 2px;
+    border-radius: 60%;
+    transform: rotate(10deg);
 }
 .cat-right-eye {
     width: 30px;
@@ -125,4 +130,14 @@ body {
     left: 134px;
     border-radius: 60%;
     transform: rotate(-25deg);
+}
+.cat-right-inner-eye {
+    width: 10px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 8px;
+    left: 18px;
+    border-radius: 60%;
+    transform: rotate(-5deg);
 }
