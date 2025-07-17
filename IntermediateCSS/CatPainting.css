@@ -9,7 +9,7 @@ body {
     height: 180px;
     border: 1px solid #000;
     border-radius: 46%;
-    background: linear-gradient(#5e5e5e 85%, #45454f 100%);
+    background: linear-gradient(#4d391b 85%, #402f13 100%);
     /* static is the default positioning for all elements. If you assign it to an element,
     you won't be able to move it around with top, right, left, or bottom.
 
@@ -56,7 +56,7 @@ body {
     position: absolute;
     border-left: 35px solid transparent;
     border-right: 35px solid transparent;
-    border-bottom: 70px solid rosybrown;
+    border-bottom: 70px solid #4d391b;
     /* those edges are too sharp for an ear. */
     border-top-left-radius: 90px;
     border-top-right-radius: 10px;
@@ -82,7 +82,7 @@ body {
 .cat-right-ear {
     border-left: 35px solid transparent;
     border-right: 35px solid transparent;
-    border-bottom: 70px solid rosybrown;
+    border-bottom: 70px solid #4d391b;
     position: absolute;
     top: -26px;
     left: 163px;
@@ -104,10 +104,25 @@ body {
 .cat-left-eye {
     width: 30px;
     height: 40px;
-    background-color: #000;
+    background-color: #586144;
     position: absolute;
     top: 54px;
     left: 39px;
     border-radius: 60%;
     transform: rotate(25deg);
+}
+.cat-left-inner-eye {
+    width: 10px;
+    height: 20px;
+    background-color: #fff;
+}
+.cat-right-eye {
+    width: 30px;
+    height: 40px;
+    background-color: #586144;
+    position: absolute;
+    top: 54px;
+    left: 134px;
+    border-radius: 60%;
+    transform: rotate(-25deg);
 }
