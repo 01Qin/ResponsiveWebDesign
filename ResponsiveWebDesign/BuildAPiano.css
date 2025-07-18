@@ -49,3 +49,17 @@ while the ::after selector creates a pseudo-element which is the last child of t
     position: absolute;
     top:23px;
 }
+@media (max-width: 768px) {
+    .card {
+    }
+    #piano {
+        width: 358px;
+    }
+    .keys {
+        width: 318px;
+    }
+    .logo {
+        width: 150px;
+    }
+
+}
