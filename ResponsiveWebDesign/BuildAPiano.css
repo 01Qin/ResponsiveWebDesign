@@ -13,6 +13,8 @@ while the ::after selector creates a pseudo-element which is the last child of t
     height: 290px;
     margin: 80px auto;
     padding: 90px 20px 0 20px;
+    position: relative;
+    border-radius: 10px;
 }
 .keys {
     background-color: #040404;
@@ -27,6 +29,7 @@ while the ::after selector creates a pseudo-element which is the last child of t
     height: 175px;
     margin: 2px;
     float: left;
+    border-radius: 0 0 3px 3px;
 }
 .key.black--key::after {
     background-color: #1d1e22;
@@ -39,5 +42,10 @@ while the ::after selector creates a pseudo-element which is the last child of t
     left: -18px;
     width: 32px;
     height: 100px;
-
+    border-radius: 0 0 3px 3px;
+}
+.logo {
+    width: 200px;
+    position: absolute;
+    top:23px;
 }
