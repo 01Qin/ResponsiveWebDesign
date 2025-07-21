@@ -5,6 +5,7 @@ putting your variables there will make them usable everywhere. */
     --building-colour2: #66cc99;
     --building-colour3: #cc6699;
     --building-colour4: #538cc6;
+    --window-colour1: black;
 }
 * {
     border: 1px solid black;
@@ -24,6 +25,8 @@ body {
     align-items: flex-end;
     justify-content: space-evenly;
 }
+
+/* BACKGROUND BUILDINGS - "bb" stands for "background building". */
 .bb1 {
     width: 10%;
     height: 70%;
@@ -77,6 +80,7 @@ body {
     background-color: var(--building-colour4)
 }
 
+/* FOREGROUND BUILDINGS - "fb" stands for "foreground building */
 .fb1 {
     width: 10%;
     height: 60%;
@@ -97,11 +101,15 @@ body {
     width: 8%;
     height: 45%;
     background-color: var(--building-colour1);
+    position: relative;
+    left: 10%;
 }
 .fb5 {
     width: 10%;
     height: 33%;
     background-color: var(--building-colour2);
+    position: relative;
+    right: 10%;
 }
 .fb6{
     width: 9%;
