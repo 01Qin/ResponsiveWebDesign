@@ -27,7 +27,9 @@ body {
     align-items: flex-end;
     justify-content: space-evenly;
 }
+.building-wrap {
 
+}
 /* BACKGROUND BUILDINGS - "bb" stands for "background building". */
 .bb1 {
     width: 10%;
@@ -37,9 +39,6 @@ body {
     align-items: center;
     /* Variable declarations begin with two dashes (-) and
     are given a name and a value like this: --variable-name: value; */
-
-
-
 }
 .bb1a {
     width: 70%;
@@ -103,13 +102,39 @@ body {
 .bb3{
     width: 10%;
     height: 55%;
-    background-color: var(--building-colour3, pink);
+    /* gradient-type(
+    direction,
+    color1,
+    color2
+        );
+ When you don't specify a distance for a color, it will use the values that makes sense.
+ In this case, the first two colors will default to 0% and 7.5% because it starts at 0%, and 7.5% is half of the 15%,
+ so you do not need to set them.*/
+    background: repeating-linear-gradient(
+            90deg, var(--building-colour3),
+            var(--building-colour3),
+            var(--window-colour3) 15%);
 }
 
 .bb4 {
     width: 11%;
     height: 58%;
-    background-color: var(--building-colour4)
+
+}
+.bb4a {
+    width: 3%;
+    height: 10%;
+    background-color: var(--building-colour4);
+}
+.bb4b {
+    width: 80%;
+    height: 5%;
+    background-color: var(--building-colour4);
+}
+.bb4c {
+    width: 100%;
+    height: 85%;
+    background-color: var(--building-colour4);
 }
 
 /* FOREGROUND BUILDINGS - "fb" stands for "foreground building */
