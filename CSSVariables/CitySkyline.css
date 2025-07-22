@@ -1,6 +1,8 @@
 /* variables are often declared in the :root selector. This is the highest level selector in CSS;
 putting your variables there will make them usable everywhere. */
 :root {
+    /* Variable declarations begin with two dashes (-) and
+    are given a name and a value like this: --variable-name: value; */
     --building-colour1: #aa80ff;
     --building-colour2: #66cc99;
     --building-colour3: #cc6699;
@@ -8,6 +10,7 @@ putting your variables there will make them usable everywhere. */
     --window-colour1: black;
     --window-colour2: #8cd9b3;
     --window-colour3: #d98cb3;
+    --window-colour4: #8cb3d9;
 }
 * {
     border: 1px solid black;
@@ -28,17 +31,19 @@ body {
     justify-content: space-evenly;
 }
 .building-wrap {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.window-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 /* BACKGROUND BUILDINGS - "bb" stands for "background building". */
 .bb1 {
     width: 10%;
     height: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* Variable declarations begin with two dashes (-) and
-    are given a name and a value like this: --variable-name: value; */
 }
 .bb1a {
     width: 70%;
@@ -120,6 +125,11 @@ body {
     width: 11%;
     height: 58%;
 
+}
+.bb4-window {
+    width: 18%;
+    height: 90%;
+    background-color: var(--window-colour4);
 }
 .bb4a {
     width: 3%;
