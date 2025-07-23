@@ -151,8 +151,38 @@ body {
 .fb1 {
     width: 10%;
     height: 60%;
-    background-color: var(--building-colour4);
 
+}
+.fb1a {
+    /* This will put a 7vh height border on the bottom. */
+    border-bottom: 7vh solid var(--building-colour4);
+}
+.fb1b {
+    width: 60%;
+    height: 10%;
+    background-color: var(--building-colour4);
+}
+.fb1c {
+    width: 100%;
+    height: 80%;
+    background:
+    /* You can add multiple gradients to an element by separating them with a comma (,) like this:
+    gradient1(
+        colors
+    ),
+    gradient2(
+        colors
+    );*/
+            repeating-linear-gradient(
+            90deg, var(--building-colour4) 0%,
+            var(--building-colour4)10%,
+            transparent 10%, transparent 15%),
+
+            repeating-linear-gradient(
+            var(--building-colour4) 0%,
+            var(--building-colour4) 10%,
+            var(--window-colour4) 10%,
+            var(--window-colour4) 90%);
 }
 .fb2 {
     width: 10%;
