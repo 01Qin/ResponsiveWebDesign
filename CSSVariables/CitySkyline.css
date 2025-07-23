@@ -7,7 +7,7 @@ putting your variables there will make them usable everywhere. */
     --building-colour2: #66cc99;
     --building-colour3: #cc6699;
     --building-colour4: #538cc6;
-    --window-colour1: black;
+    --window-colour1: #bb99ff;
     --window-colour2: #8cd9b3;
     --window-colour3: #d98cb3;
     --window-colour4: #8cb3d9;
@@ -211,7 +211,11 @@ body {
 .fb3 {
     width: 10%;
     height: 35%;
-
+}
+.fb3-window {
+    width: 25%;
+    height: 80%;
+    background-color: var(--window-colour1);
 }
 .fb3a {
     width: 80%;
