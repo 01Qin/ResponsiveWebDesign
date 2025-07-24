@@ -22,8 +22,7 @@ body {
     overflow: hidden;
 }
 .sky {
-    background: radial-gradient( circle closest-corner at 15% 15%,
-    #ffcf33 0%, #ffcf33 20%, #ffff66 21%, #bbeeff 100%);
+
 }
 .background-buildings, .foreground-buildings {
     width: 100%;
@@ -286,4 +285,16 @@ body {
                 var(--building-colour3) 10%,
                 var(--window-colour3) 10%,
                 var(--window-colour3) 30%);
+}
+/* A media query can be used to change styles based on certain conditions, and they look like this:
+@media (condition) {
+
+} */
+@media (max-width: 1000px) {
+    /* circle closest-corner at 15% 15%, this will move the start of the gradient to 15% from the top and left.
+    It will make it end at the closest-corner and it will maintain a circle shape. */
+    .sky {background: radial-gradient(
+            circle closest-corner at 15% 15%,
+            #ccc 0%, #ccc 20%, #445 21%, #223 100%);}
+    
 }
