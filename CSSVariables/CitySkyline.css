@@ -272,5 +272,14 @@ body {
 .fb6{
     width: 9%;
     height: 38%;
-    background-color: var(--building-colour3);
+    background: repeating-linear-gradient(90deg,
+                var(--building-colour3) 0%,
+                var(--building-colour3) 10%,
+                transparent 10%,
+                transparent 30%),
+                repeating-linear-gradient(
+                var(--building-colour3) 0%,
+                var(--building-colour3) 10%,
+                var(--window-colour3) 10%,
+                var(--window-colour3) 30%);
 }
