@@ -233,11 +233,26 @@ body {
     position: relative;
     left: 10%;
 }
+.fb4-window {
+    width: 30%;
+    height: 10%;
+    border-radius: 50%;
+    margin: 10%;
+    background-color: var(--window-colour1);
+
+}
+.fb4a {
+    border-top: 5vh solid transparent;
+    border-left: 8vw solid var(--building-colour1);
+}
 .fb4b {
     width: 100%;
     height: 89%;
     background-color: var(--building-colour1);
+    display: flex;
+    flex-wrap: wrap;
 }
+
 .fb5 {
     width: 10%;
     height: 33%;
