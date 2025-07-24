@@ -3,13 +3,13 @@ putting your variables there will make them usable everywhere. */
 :root {
     /* Variable declarations begin with two dashes (-) and
     are given a name and a value like this: --variable-name: value; */
-    --building-colour1: #aa80ff;
-    --building-colour2: #66cc99;
-    --building-colour3: #cc6699;
-    --building-colour4: #538cc6;
-    --window-colour1: #bb99ff;
+    --building-colour1: #aadc44;
+    --building-colour2: #66cc39;
+    --building-colour3: #000029;
+    --building-colour4: #537cc5;
+    --window-colour1: #FFFAF0FF;
     --window-colour2: #8cd9b3;
-    --window-colour3: #d98cb3;
+    --window-colour3: #FF1493;
     --window-colour4: #8cb3d9;
 }
 * {
@@ -21,6 +21,12 @@ body {
     overflow: hidden;
 }
 .sky {
+      background: radial-gradient(
+      closest-corner circle at 15% 15%,
+      #ffcf33,
+      #ffcf33 20%,
+      #ffff66 21%,
+      #bbeeff 100%);
 
 }
 .background-buildings, .foreground-buildings {
@@ -55,9 +61,7 @@ body {
     height: 10%;
     /* To use a variable, put the variable name in parentheses
     with var in front of them like this: var(--variable-name). */
-
     background: linear-gradient(var(--building-colour1), var(--window-colour1));
-
 }
 .bb1b {
     width: 80%;
@@ -81,7 +85,6 @@ body {
     background-color: var(--building-colour2, green); */
 }
 .bb2a {
-
     border-bottom: 5vh solid var(--building-colour2);
     border-left: 5vw solid transparent;
     border-right: 5vw solid transparent;
@@ -117,16 +120,14 @@ body {
  When you don't specify a distance for a color, it will use the values that makes sense.
  In this case, the first two colors will default to 0% and 7.5% because it starts at 0%, and 7.5% is half of the 15%,
  so you do not need to set them.*/
-    background: repeating-linear-gradient(
-            90deg, var(--building-colour3),
+    background: repeating-linear-gradient(90deg,
+            var(--building-colour3),
             var(--building-colour3),
             var(--window-colour3) 15%);
 }
-
 .bb4 {
     width: 11%;
     height: 58%;
-
 }
 .bb4-window {
     width: 18%;
@@ -177,8 +178,8 @@ body {
     gradient2(
         colors
     );*/
-            repeating-linear-gradient(
-            90deg, var(--building-colour4) 0%,
+            repeating-linear-gradient(90deg,
+            var(--building-colour4) 0%,
             var(--building-colour4)10%,
             transparent 10%, transparent 15%),
 
@@ -191,7 +192,6 @@ body {
 .fb2 {
     width: 10%;
     height: 40%;
-
 }
 .fb2-window {
     width: 22%;
@@ -241,7 +241,6 @@ body {
     border-radius: 50%;
     margin: 10%;
     background-color: var(--window-colour1);
-
 }
 .fb4a {
     border-top: 5vh solid transparent;
@@ -302,9 +301,9 @@ body {
     }
     /* circle closest-corner at 15% 15%, this will move the start of the gradient to 15% from the top and left.
     It will make it end at the closest-corner and it will maintain a circle shape. */
-    .sky {background: radial-gradient(
+    .sky {
+        background: radial-gradient(
             circle closest-corner at 15% 15%,
             #ccc 0%, #ccc 20%, #445 21%, #223 100%);
     }
-    
 }
