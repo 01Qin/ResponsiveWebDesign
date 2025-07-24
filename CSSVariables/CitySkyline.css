@@ -13,13 +13,17 @@ putting your variables there will make them usable everywhere. */
     --window-colour4: #8cb3d9;
 }
 * {
-    border: 1px solid black;
+
     box-sizing: border-box;
 }
 body {
     height: 100vh;
     margin: 0;
     overflow: hidden;
+}
+.sky {
+    background: radial-gradient( circle closest-corner at 15% 15%,
+    #ffcf33 0%, #ffcf33 20%, #ffff66 21%, #bbeeff 100%);
 }
 .background-buildings, .foreground-buildings {
     width: 100%;
