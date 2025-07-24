@@ -256,7 +256,16 @@ body {
 .fb5 {
     width: 10%;
     height: 33%;
-    background-color: var(--building-colour2);
+    background: repeating-linear-gradient(
+            var(--building-colour2) 0%,
+            var(--building-colour2) 5%,
+            transparent 5%,
+            transparent 10%),
+            repeating-linear-gradient( 90deg,
+            var(--building-colour2) 0%,
+            var(--building-colour2) 12%,
+            var(--window-colour2) 12%,
+            var(--window-colour2) 44%);
     position: relative;
     right: 10%;
 }
