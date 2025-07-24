@@ -13,7 +13,6 @@ putting your variables there will make them usable everywhere. */
     --window-colour4: #8cb3d9;
 }
 * {
-
     box-sizing: border-box;
 }
 body {
@@ -291,10 +290,21 @@ body {
 
 } */
 @media (max-width: 1000px) {
+    :root {
+        --building-colour1: #000;
+        --building-colour2: #000;
+        --building-colour3: #000;
+        --building-colour4: #000;
+        --window-colour1: #777;
+        --window-colour2: #777;
+        --window-colour3: #777;
+        --window-colour4: #777;
+    }
     /* circle closest-corner at 15% 15%, this will move the start of the gradient to 15% from the top and left.
     It will make it end at the closest-corner and it will maintain a circle shape. */
     .sky {background: radial-gradient(
             circle closest-corner at 15% 15%,
-            #ccc 0%, #ccc 20%, #445 21%, #223 100%);}
+            #ccc 0%, #ccc 20%, #445 21%, #223 100%);
+    }
     
 }
