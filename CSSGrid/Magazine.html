@@ -98,7 +98,90 @@
         <article class="brief-principles">
             <h3 class="list-title">Security Design Principles</h3>
             <p>the seven design principles from the security pillar of the AWS Well-Architected Framework.</p>
-            <ul class="lists"></ul>
+            <ul class="lists">
+                <li><h4 class="list-subtitle">Apply the principle of least privilege</h4>
+                <p>An organizational security culture should be built on the principle of least privilege. Only grant
+                    access to data and other resources to the people who really need that access. You can start with
+                    denying access to everything and grant access as needed, based on job role.
+
+                    A security best practice is to enforce separation of duties with appropriate authorization for each
+                    interaction with your AWS resources. Set expectations for how authority will be delegated down
+                    through software engineers, operations staff, and other job functions that are involved in cloud
+                    adoption.
+
+                    By reducing or even ending reliance on long-term credentials, you can diminish your attack surface
+                    area. You can use temporary credentials and require identities to dynamically acquire them. For
+                    workforce identities, use AWS Single Sign-On or federation with IAM to access AWS accounts. For
+                    machine identities, such as EC2 instances or AWS Lambda functions, require the use of IAM roles,
+                    instead of IAM users with long-term access keys</p></li>
+                <li><h4 class="list-subtitle">Enable traceability</h4>
+                <p>With AWS, you can monitor, alert, and audit actions and changes to your environment in real time.
+                    AWS provides native logging as well as services that you can use to provide greater visibility in
+                    near-real time for occurrences in your environment. Integrate these tools with your existing logging
+                    and monitoring solutions. Know what workloads are deployed and operational, so that you can audit
+                    and ensure that the environment is operating at expected security governance levels and meeting
+                    required security standards.
+
+                    In AWS, you can implement detective controls by processing logs and events, and monitoring, which
+                    allows for auditing, automated analysis, and alarming. CloudTraillogs, AWS API calls, and Amazon
+                    CloudWatchprovide monitoring of metrics with alarming, and AWS Configprovides configuration history.
+                    Amazon GuardDutyis a managed threat detection service that continuously monitors for malicious or
+                    unauthorized behavior to help you protect your AWS accounts and workloads. Service-level logs are
+                    also available; for example, you can use Amazon S3 to log access requests.</p></li>
+                <li><h4 class="list-subtitle">Secure all layers</h4>
+                <p>Rather than only focusing on the protection of a single outer layer, apply a defense in depth
+                    approach with other security controls. This means to apply security to all layers, such as your
+                    network, application, and data store. For example, you can require users to strongly authenticate to
+                    an application. In addition, ensure that users come from a trusted network path and require access
+                    to the decryption keys to process encrypted data. One of the benefits of using AWS is that our
+                    services are also built for integration. You can use several AWS services together to provide the
+                    most secure environment for your data and resources.
+
+                    AWS customers are able to tailor, or harden, the configuration of an EC2 instance, Amazon
+                    ElasticContainer Service (Amazon ECS) container, or AWS Elastic Beanstalkinstance, and persist this
+                    configuration to an immutable Amazon Machine Image (AMI). Then, all new virtual servers (instances)
+                    launched with this AMI receive the hardened configuration, whether they are launched manually or
+                    through automatic scaling.</p></li>
+                <li><h4 class="list-subtitle">Automate security</h4>
+                <p>AWS develops purpose-built security tools that can help you to automate many of the routine tasks
+                    that security experts normally spend time on. This means the security experts can spend more time
+                    focusing on measures to increase the security of your AWS Cloud environment.
+
+                    You can automate security engineering and operations functions by using a comprehensive set of APIs
+                    and tools. You can fully automate identity management, network security and data protection, and
+                    monitoring capabilities, and deliver them by using popular software development methods that you
+                    already have in place. Rather than having people monitor your security position and react to an
+                    event, with automation, your system can monitor, review, and initiate a response.</p></li>
+                <li><h4 class="list-subtitle">Protect data in transit and data at rest</h4>
+                <p>Safeguarding data is a critical piece of building and operating information systems. AWS provides
+                    services and features that help you to protect your data at rest and in transit. Safeguards include
+                    fine-grained access controls to objects, creating and controlling the encryption keys that are used
+                    to encrypt your data, selecting appropriate encryption methods, integrity validation, and
+                    appropriate data retention. To help you manage protection, implement a tagging schema to classify
+                    your data into sensitivity levels. Another security best practice is to construct mechanisms to
+                    protect data in transit, such as using virtual private network (VPN) and Transport Layer Security
+                    (TLS) connections.
+
+                    AWS provides multiple means to encrypt data at rest and data in transit. We build features into our
+                    services that make it easier to encrypt your data. For example, we have implemented server-side
+                    encryption (SSE) for Amazon S3to make it easier for you to store your data in an encrypted form.
+                    You can also arrange for Elastic Load Balancing (ELB) to handle the entire HTTPS encryption and
+                    decryption process (generally known as SSL termination).</p></li>
+                <li><h4 class="list-subtitle">Prepare for security events</h4>
+                <p>Even with mature preventive and detective controls, you should put processes in place to respond to
+                    and mitigate the potential impact of security incidents. The architecture of your workload strongly
+                    affects your ability to operate effectively during an incident, isolate or contain systems, and
+                    restore operations to a known good state. Put tools and access in place ahead of a security
+                    incident. Then, routinely practice incident response through game days. This will help you ensure
+                    that your architecture can accommodate timely investigation and recovery.</p></li>
+                <li><h4 class="list-subtitle">Minimize the attack surface</h4>
+                <p>Generally, a cyberattack shuts down due to two reasons: either the attackers exhaust themselves and
+                    give up, or the attackers achieve their goal. Reduce your exposure to unintended access by hardening
+                    operating systems and minimizing the components, libraries, and externally consumable services in
+                    use. Start by reducing unused components, such as operating system packages and applications.
+                    Configure security groups and network access control lists (ACLs) in Amazon Virtual Private Cloud
+                    (Amazon VPC) to help reduce the attack surface of your applications.</p></li>
+            </ul>
         </article>
         <aside class="image-wrapper"></aside>
     </section>
