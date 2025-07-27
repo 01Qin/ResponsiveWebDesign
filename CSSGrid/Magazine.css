@@ -49,4 +49,16 @@ main {
     /* There may be times where you are unsure of how many columns your grid will have, but you want an element to stop
     at the last column. To do this, you can use -1 for the end column. */
     grid-column: 1/-1;
+    position: relative;
+}
+img {
+    width: 100%;
+    /* The object-fit property tells the browser how to position the element within its container. In this case, cover
+    will set the image to fill the container, cropping as needed to avoid changing the aspect ratio.*/
+    object-fit: cover;
+}
+.hero-title {
+    text-align: center;
+    color: orangered;
+    font-size: 8rem;
 }
