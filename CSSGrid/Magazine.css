@@ -5,7 +5,7 @@
 }
 html {
     /* This will set the default font size for your web page to 10px (the browser default is 16px).*/
-    font-size: 62.5%;
+    font-size: 92.5%;
 }
 body {
     font-family: Baskervville, serif;
@@ -26,5 +26,27 @@ main {
     display: grid;
     /* This will create three columns where the middle column is 94rem wide, and the first and last columns are both 1
     fraction of the remaining space in the grid container. */
-    grid-template-columns: 1fr 94rem 1fr;
+    grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
+    row-gap: 3rem;
+}
+.heading {
+    /* you can  adjust the placement in the child rules.
+    One option is the grid-column property, which is shorthand for grid-column-start and grid-column-end.
+    The grid-column property tells the grid item which grid line to start and end at.
+    start at grid line 2 and end at grid line 3.*/
+    grid-column: 2/3;
+    /* The CSS repeat() function is used to repeat a value, rather than writing it out manually, and is helpful for grid
+    layouts. For example, setting the grid-template-columns property to repeat(20, 200px) would create 20 columns each
+    200px wide.*/
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 8rem;
+}
+.text {
+    grid-column: 2/3;
+    display: grid;
+}
+.hero {
+    /* There may be times where you are unsure of how many columns your grid will have, but you want an element to stop
+    at the last column. To do this, you can use -1 for the end column. */
+    grid-column: 1/-1;
 }
