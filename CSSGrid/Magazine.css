@@ -22,3 +22,9 @@ a {
     text-decoration: none;
     color: #000029;
 }
+main {
+    display: grid;
+    /* This will create three columns where the middle column is 94rem wide, and the first and last columns are both 1
+    fraction of the remaining space in the grid container. */
+    grid-template-columns: 1fr 94rem 1fr;
+}
