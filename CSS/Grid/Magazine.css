@@ -62,3 +62,23 @@ img {
     color: orangered;
     font-size: 8rem;
 }
+.hero-subtitle {
+    font-size: 2.4rem;
+    color: orangered;
+    text-align: center;
+}
+.author {
+    font-size: 2rem;
+    font-family: Raleway, sans-serif;
+}
+.author-name a:hover {
+    background-color: #FF1493;
+}
+.publish-date {
+    color: rgba(0, 96, 149, 1);
+}
+.social-icons {
+    display: grid;
+    font-size: 3rem;
+    grid-template-columns: repeat(5, 1fr);
+}
