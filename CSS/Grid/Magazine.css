@@ -128,3 +128,21 @@ hr {
     column-gap: 3rem;
     margin-bottom: 3rem;
 }
+.lists {
+    /* get rid of the bullet points on the list items */
+    list-style-type: none;
+    margin-top: 2rem;
+}
+.lists li {
+    margin-bottom: 1.5rem;
+}
+.list-title, .list-subtitle {
+    color: rgba(0, 96, 149, 1);
+}
+.image-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* give our grid rows that adjust in height based on the content, but columns that remain a fixed width based on
+     the container. */
+    grid-template-rows: repeat(3, min-content);
+}
