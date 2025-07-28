@@ -145,4 +145,47 @@ hr {
     /* give our grid rows that adjust in height based on the content, but columns that remain a fixed width based on
      the container. */
     grid-template-rows: repeat(3, min-content);
+    /* The gap property is a shorthand way to set the value of column-gap and row-gap at the same time. If given one
+    value, it sets the column-gap and row-gap both to that value. If given two values, it sets the row-gap to the first
+    value and the column-gap to the second. */
+    gap: 2rem;
+    /* The place-items property can be used to set the align-items and justify-items values at the same time.
+    The place-items property takes one or two values. If one value is provided, it is used for both the align-items
+    and justify-items properties. If two values are provided, the first value is used for the align-items property
+    and the second value is used for the justify-items property. */
+    place-items: center;
+}
+.image-1, .image-3 {
+    /* allow the first and third images to span the full width of the grid. */
+    grid-column: 1/-1;
+}
+@media only screen and (max-width: 720px) {
+    .image-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+/* collapse your bottom text area into a single column on smaller screens. */
+@media only screen and (max-width: 600px) {
+    .text-with-images {
+        grid-template-columns: 1fr;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .hero-title {
+        font-size: 6rem;
+    }
+    .hero-subtitle, .author, .quote, .list-title {
+        font-size: 1.8rem;
+    }
+    .social-icons {
+        font-size: 2rem;
+    }
+    .text {
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .hero-title {
+        font-size: 4.5rem;
+    }
 }
