@@ -57,7 +57,9 @@
     transform-origin: 50% 0;
     /* set the animation-name, animation-duration, animation-timing-function, and animation-iteration-count properties
     in that order. */
-    animation: cabins 10s linear infinite;
+    animation: cabins 10s ease-in-out infinite;
+    /* ease-in-out timing function. will tell the animation to start and end at a slower pace, but move more quickly in
+    the middle of the cycle. */
 }
 /* position the cabins around the wheel */
 .cabin:nth-of-type(1) {
@@ -101,6 +103,9 @@ end of the sequence.
 @keyframes cabins {
     0% {
         transform: rotate(0deg);
+    }
+    50% {
+        background-color: floralwhite;
     }
       100% {
             transform: rotate(-360deg);
