@@ -1,0 +1,38 @@
+.wheel {
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 50px;
+    position: absolute;
+    width: 55vw;
+    height: 55vw;
+    max-width: 500px;
+    max-height: 500px;
+}
+.line {
+    background-color: black;
+    width: 50%;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* The transform-origin property is used to set the point around which a CSS transformation is applied.
+    For example, when performing a rotate, the transform-origin determines around which point the element is rotated. */
+    transform-origin: 0 0;
+}
+.line:nth-of-type(2) {
+    /*the transform property allows you to manipulate the shape of an element. In this case, using the rotate(60deg)
+    value will rotate the element around its transform-origin point by 60 degrees clockwise.  */
+    transform: rotate(60deg);
+}
+.line:nth-of-type(3) {
+    transform: rotate(120deg);
+}
+.line:nth-of-type(4) {
+    transform: rotate(180deg);
+}
+.line:nth-of-type(5) {
+    transform: rotate(240deg);
+}
+.line:nth-of-type(6) {
+    transform: rotate(300deg);
+}
