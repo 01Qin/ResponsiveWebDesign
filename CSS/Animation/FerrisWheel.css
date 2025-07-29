@@ -104,8 +104,15 @@ end of the sequence.
     0% {
         transform: rotate(0deg);
     }
+    25% {
+        background-color: #888989;
+    }
     50% {
         background-color: floralwhite;
+    }
+    /* create a new 75% selector between your 50% and 100% selectors, with that, your animation is much smoother. */
+    75% {
+        background-color: #FF1493;
     }
       100% {
             transform: rotate(-360deg);
