@@ -13,6 +13,12 @@
     /* The animation-duration property is used to set how long the animation should sequence to complete. The time
     should be specified in either seconds (s) or milliseconds (ms). */
     animation-duration: 10s;
+    /* The animation-iteration-count property sets how many times your animation should repeat. This can be set to a
+    number, or to infinite to indefinitely repeat the animation. */
+    animation-iteration-count: infinite;
+    /* The animation-timing-function property sets how the animation should progress over time.
+    want the Ferris wheel animation to run at the same rate from start to finish. */
+    animation-timing-function: linear;
 }
 .line {
     background-color: black;
@@ -49,6 +55,9 @@
     position: absolute;
     border: 2px solid;
     transform-origin: 50% 0;
+    /* set the animation-name, animation-duration, animation-timing-function, and animation-iteration-count properties
+    in that order. */
+    animation: cabins 10s linear infinite;
 }
 /* position the cabins around the wheel */
 .cabin:nth-of-type(1) {
@@ -83,9 +92,18 @@ end of the sequence.
 @keyframes wheel {
 /* define how your animation should start */
     0% {
-        transform: rotate(360deg);
+        transform: rotate(0deg);
     }
       100% {
             transform: rotate(360deg);
         }
+}
+@keyframes cabins {
+    0% {
+        transform: rotate(0deg);
+    }
+      100% {
+            transform: rotate(-360deg);
+        }
+
 }
