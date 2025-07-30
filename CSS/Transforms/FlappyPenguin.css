@@ -21,6 +21,16 @@ body {
     height: 300px;
     margin: auto;
     margin-top: 75px;
+    /* Change the stack level of the .penguin element such that it appears in front of the .ground element */
+    z-index: 4;
+    position: relative;
+}
+.penguin-head {
+    width: 50%;
+    height: 45%;
+    background: linear-gradient(45deg, gray, rgb(239, 240, 228));
+    border-radius: 70% 70% 65% 65%;
+
 }
 .left-mountain {
     width: 300px;
