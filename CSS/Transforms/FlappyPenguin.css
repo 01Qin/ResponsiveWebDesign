@@ -45,3 +45,14 @@ body {
     left: 110px;
     top: 225px;
 }
+.sun {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: absolute;
+    /* set the border-radius such that the sun's shape is a circle. */
+    border-radius: 50%;
+    top: -75px;
+    /* Position the sun in the top right corner of the screen */
+    right: -75px;
+}
