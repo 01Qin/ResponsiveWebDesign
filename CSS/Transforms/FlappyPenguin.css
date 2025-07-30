@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(45deg, rgb(255, 104, 166), rgb(247, 255, 222));
+    background: linear-gradient(45deg, rgb(255, 104, 166), rgb(221, 241, 222));
     margin: 0;
     padding: 0;
     width: 100%;
@@ -10,8 +10,28 @@ body {
 .ground {
     width: 100vw;
     height: 400px;
+    margin-top: -58px;
     background: linear-gradient(90deg, rgb(255, 93, 166), rgb(247, 255, 222));
     /* the .ground element will be third in the stacking context of the page layout */
     z-index: 3;
     position: absolute;
+}
+.penguin {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 75px;
+}
+.left-mountain {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(rgb(221, 241, 228),rgb(255, 93, 166));
+    /* To prevent the mountain from pushing the .ground element */
+    position: absolute;
+    /* the skew transform function, which takes two arguments. The first being an angle to shear the x-axis by,
+    and the second being an angle to shear the y-axis by. */
+    transform: skew(0, 44deg);
+    /* Set the stack level of the mountain element such that it remains directly behind the .ground element. */
+    z-index: 2;
+    margin-top: 100px;
 }
