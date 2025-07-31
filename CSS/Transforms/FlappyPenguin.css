@@ -43,6 +43,19 @@ body {
     top: 40%;
     left: 23.5%;
 }
+.penguin-body::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 45%;
+    background-color: gray;
+    top: 10%;
+    left: 25%;
+    border-radius: 0 0 100% 100%;
+    /* Increase the pseudo-element's transparency */
+    opacity: 70%;
+
+}
 /* Target all descendent elements of the .penguin element */
 .penguin * {
     position: absolute;
