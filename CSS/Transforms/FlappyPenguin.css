@@ -46,10 +46,10 @@ body {
     top: 15%;
 }
 /* Target the .face element with the left class */
-.face .left {
+.face.left {
     left: 5%;
 }
-.face .right {
+.face.right {
     right: 5%;
 }
 .chin {
@@ -60,7 +60,19 @@ body {
     left: 5%;
     border-radius: 70% 70% 100% 100%;
 }
-
+.eye {
+    width: 15%;
+    height: 17%;
+    background-color: black;
+    top: 45%;
+    border-radius: 50% 50% 50% 50%;
+}
+.eye.left {
+    left: 25%;
+}
+.eye.right {
+    right: 25%;
+}
 .penguin-body {
     width: 53%;
     height: 45%;
