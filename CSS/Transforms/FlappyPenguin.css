@@ -81,6 +81,19 @@ body {
     left: -23%;
     border-radius: 50% 50% 50% 50%;
 }
+.blush {
+    width: 15%;
+    height: 10%;
+    background-color: plum;
+    top: 65%;
+    border-radius: 50% 50% 50% 50%;
+}
+.blush.left {
+    left: 15%;
+}
+.blush.right {
+    right: 15%;
+}
 .penguin-body {
     width: 53%;
     height: 45%;
