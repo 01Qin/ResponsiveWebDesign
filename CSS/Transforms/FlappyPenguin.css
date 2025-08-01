@@ -109,6 +109,21 @@ body {
     top: 65%;
     left: 42%;
 }
+.shirt {
+    font: bold 25px Helvetica, sans-serif;
+    top:  165px;
+    left: 128px;
+    z-index: 1;
+    color: #FF1493;
+}
+/* targeting the div with the heart emoji.
+In some browsers, the heart emoji may look slightly different from the previous step. This is because some of the
+character's properties were overridden by the font-weight style of bold. */
+.shirt div {
+    font-weight: normal;
+    top: 23px;
+    left: 12px;
+}
 .penguin-body {
     width: 53%;
     height: 45%;
