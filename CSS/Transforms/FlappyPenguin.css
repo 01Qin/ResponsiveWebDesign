@@ -143,7 +143,13 @@ character's properties were overridden by the font-weight style of bold. */
     border-radius: 0 0 100% 100%;
     /* Increase the pseudo-element's transparency */
     opacity: 70%;
-
+}
+.foot {
+    width: 15%;
+    height: 30%;
+    background-color: orange;
+    top: 85%;
+    border-radius: 50% 50% 50% 50%;
 }
 /* Target all descendent elements of the .penguin element */
 .penguin * {
