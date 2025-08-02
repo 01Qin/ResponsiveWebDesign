@@ -222,3 +222,16 @@ character's properties were overridden by the font-weight style of bold. */
     /* Position the sun in the top right corner of the screen */
     right: -75px;
 }
+/* use CSS animations to make the penguin wave.*/
+@keyframes wave {
+    /* Give wave four waypoints starting at 10%, and incrementing by 10%. */
+    10% {
+    }
+     20% {
+    }
+     30% {
+    }
+     40% {
+    }
+
+}
