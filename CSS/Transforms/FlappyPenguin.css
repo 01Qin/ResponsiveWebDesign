@@ -14,7 +14,7 @@ body {
 }
 .ground {
     width: 100vw;
-    height: 400px;
+    height: calc(100vh - 300px);
     margin-top: -58px;
     background: linear-gradient(90deg, rgb(255, 93, 166), rgb(247, 255, 222));
     /* the .ground element will be third in the stacking context of the page layout */
