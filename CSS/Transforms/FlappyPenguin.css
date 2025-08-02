@@ -160,6 +160,9 @@ character's properties were overridden by the font-weight style of bold. */
     transform-origin: top left;
     /* first rotate it by 130deg, then invert the x-axis. */
     transform: rotate(130deg) scaleX(-1);
+    /* Use the wave animation on the left arm. Have the animation last 3s, infinitely iterate,
+    and have a linear timing function. */
+    animation: wave 3s infinite linear;
 }
 .arm.right {
     top: 0;
@@ -226,12 +229,17 @@ character's properties were overridden by the font-weight style of bold. */
 @keyframes wave {
     /* Give wave four waypoints starting at 10%, and incrementing by 10%. */
     10% {
+        /* rotate to 110deg, and retain the scaling of the left arm. */
+        transform: rotate(110deg) scaleX(-1);
     }
      20% {
+         transform: rotate(130deg) scaleX(-1);
     }
      30% {
+         transform: rotate(110deg) scaleX(-1);
     }
      40% {
+         transform: rotate(130deg) scaleX(-1);
     }
 
 }
