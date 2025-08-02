@@ -21,6 +21,10 @@ body {
     z-index: 3;
     position: absolute;
 }
+/* Target all descendent elements of the .penguin element */
+.penguin * {
+    position: absolute;
+}
 .penguin {
     width: 300px;
     height: 300px;
@@ -29,6 +33,14 @@ body {
     /* Change the stack level of the .penguin element such that it appears in front of the .ground element */
     z-index: 4;
     position: relative;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0ms;
+}
+/* Target the .penguin element when it is active, and increase its size by 50% in both dimensions. */
+.penguin:active {
+    transform: scale(1.5);
+    cursor: not-allowed;
 }
 .penguin-head {
     width: 50%;
@@ -187,10 +199,7 @@ character's properties were overridden by the font-weight style of bold. */
     right: 25%;
     transform: rotate(-80deg);
 }
-/* Target all descendent elements of the .penguin element */
-.penguin * {
-    position: absolute;
-}
+
 .left-mountain {
     width: 300px;
     height: 300px;
