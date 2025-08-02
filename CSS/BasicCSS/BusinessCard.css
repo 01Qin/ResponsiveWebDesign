@@ -19,3 +19,7 @@ p {
 .profile-image {
     max-width: 100%;
 }
+/* The links of the page should have no underline. */
+a {
+    text-decoration: none;
+}
