@@ -149,6 +149,9 @@ character's properties were overridden by the font-weight style of bold. */
     width: 30%;
     height: 60%;
     background: linear-gradient(90deg, var(--penguin-skin), rgb(209, 210, 199));
+    /* top-left, top-right, and bottom-right corners a radius of 30%, and the bottom-left corner a radius of 120%. */
+    border-radius: 30% 30% 30% 120%;
+    z-index: -1;
 }
 .arm.left {
     top: 35%;
