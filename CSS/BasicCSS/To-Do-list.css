@@ -1,7 +1,15 @@
+
+body {
+    width: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color: #d0d0d5;
+    text-align: center;
+    top: inherit;
+}
 a {
     text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
     color: #FF1493;
 }
