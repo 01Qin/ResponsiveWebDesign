@@ -2,10 +2,13 @@
 body {
     width: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 40px;
     background-color: #d0d0d5;
     text-align: center;
-    top: inherit;
+}
+li {
+    display: block;
+    line-height: 2;
 }
 a {
     text-decoration: none;
@@ -21,7 +24,7 @@ a:hover {
     color: #FF1493;
 }
 a:visited {
-    color: #888989;
+    color: blue;
 }
 a:active {
     color: mediumvioletred;
@@ -31,4 +34,10 @@ a visible outline to indicate it is currently focused.
 :focus pseudo-class */
 a:focus {
     outline: 2px solid #FF1493;
+}
+input[type="checkbox"] {
+    transform: scale(2.5);
+    margin: 10px;
+    display: inline-block;
+    position: relative;
 }
