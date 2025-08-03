@@ -9,7 +9,26 @@ body {
 }
 a {
     text-decoration: none;
+    color: blue;
 }
+/*
+a:link — default state of a link
+a:visited — after the link has been clicked
+a:hover — when the mouse is over the link
+a:active — when the link is being clicked
+*/
 a:hover {
     color: #FF1493;
+}
+a:visited {
+    color: #888989;
+}
+a:active {
+    color: mediumvioletred;
+}
+/* when a user navigates to a link using the keyboard (like pressing Tab), or clicks on it, the link should display
+a visible outline to indicate it is currently focused.
+:focus pseudo-class */
+a:focus {
+    outline: 2px solid #FF1493;
 }
