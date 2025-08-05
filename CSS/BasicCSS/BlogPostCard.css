@@ -1,18 +1,23 @@
 .blog-post-card {
     background: floralwhite;
     width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
     text-align: center;
     /* Round corners.*/
     border-radius: 10px;
 }
 .post-img {
     width: 100%;
+    height: 100%;
     display: block;
     border-bottom: 2px solid goldenrod;
-    padding: 15px;
+    margin: 0 auto;
 }
 .post-content {
     padding: 10px;
+    margin: 0 auto;
 }
 .read-more:hover {
     color: floralwhite;
@@ -21,17 +26,28 @@
 .read-more {
     color: goldenrod;
     background-color: #55680D;
-    margin: auto;
-    display: grid;
+    margin: 0 auto;
+    display: inline-block;
     border-radius: 10px;
     padding: 10px;
     transition: color 0.3s ease-in-out;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: large;
 }
 .post-title {
-    margin: 10px;
+    margin: 20px;
     color: black;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 60px;
+
 }
 .post-excerpt {
     margin: 10px;
     color: black;
+    font-weight: normal;
+    font-size: 30px;
+    list-style: inherit;
+
 }
