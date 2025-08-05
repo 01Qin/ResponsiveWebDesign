@@ -1,0 +1,12 @@
+.blog-post-card {
+    background: floralwhite;
+    width: 100%;
+    text-align: center;
+    /* Round corners.*/
+    border-radius: 10px;
+}
+.post-img {
+    width: 100%;
+    display: block;
+    border-bottom: 2px solid goldenrod;
+}
