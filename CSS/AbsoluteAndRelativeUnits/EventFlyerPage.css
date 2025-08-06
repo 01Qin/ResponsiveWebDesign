@@ -5,3 +5,9 @@ body {
     width: 100%;
     min-height: calc(100vh - 100px);
 }
+hr {
+    width: 80%;
+}
+section {
+    width: 100%;
+}
