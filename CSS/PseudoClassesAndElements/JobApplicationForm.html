@@ -8,25 +8,25 @@
 <body>
 <main>
     <div class="container">
-        <form>
-            <label>
-            <input type="text" id="name">
-            <input type="email" id="email">
+        <form id="job-application">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter you name" required>
+            <input type="email" id="email" placeholder="Enter your email" required>
             <select id="position">
                 <option value="">Select a Position</option>
                 <option value="developer">Designer</option>
                 <option value="manger">Manger</option>
             </select>
-                </label>
+
             <fieldset class="radio-group">
-                <label>
-                <input type="radio" name="availability">
-                    <input type="radio" name="availability">
-                    <input type="radio" name="availability">
-                <textarea id="message"></textarea>
-                    </label>
+                    <legend>Availability:</legend>
+                <input type="radio" name="availability" value="fulltime" id="fulltime" checked>
+                <label for="fulltime" >Full Time</label>
+                <input type="radio" name="availability" value="parttime" id="parttime">
+                <label for="parttime">Part Time</label>
             </fieldset>
-            <button type="submit"></button>
+            <textarea id="message"></textarea>
+            <button type="submit">Submit Application</button>
         </form>
     </div>
 </main>
