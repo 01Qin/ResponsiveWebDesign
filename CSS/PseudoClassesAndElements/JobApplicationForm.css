@@ -1,22 +1,22 @@
-:focus .input .textarea {
+.input:focus, .textarea:focus {
     border-color: #55680D;
 }
-:invalid .input .textarea {
+.input:invalid, .textarea:invalid {
     border-color: red;
 }
-:valid .input .textarea {
+.input:valid, .textarea:valid {
     border-color: green;
 }
 button:hover {
     background-color: #55680D;
 }
-:checked .radio-group input[typed="radio"] {
+.radio-group input[typed="radio"]:checked {
     background-color: #ffcf33;
     box-shadow: 2px 2px 2px #ffcf33;
 }
-:checked .radio-group input[typed="radio"] {
+.radio-group input[typed="radio"]:checked {
     color: #55680D;
 }
-:first-of-type .radio-group input[typed="radio"] {
+.radio-group input[typed="radio"]:first-of-type  {
     list-style-type: circle;
 }
