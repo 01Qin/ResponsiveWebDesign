@@ -1,7 +1,7 @@
 .input, .textarea:focus {
     border-color: #55680D;
 }
-.textarea .select, .textarea:invalid {
+.input .select, .textarea:invalid {
     border-color: red;
 }
 .input, .textarea:valid {
@@ -19,4 +19,9 @@ button:hover {
 }
 .radio-group input[typed="radio"]:first-of-type  {
     list-style-type: circle;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
 }
