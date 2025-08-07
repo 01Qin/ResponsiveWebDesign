@@ -1,0 +1,22 @@
+:focus .input .textarea {
+    border-color: #55680D;
+}
+:invalid .input .textarea {
+    border-color: red;
+}
+:valid .input .textarea {
+    border-color: green;
+}
+button:hover {
+    background-color: #55680D;
+}
+:checked .radio-group input[typed="radio"] {
+    background-color: #ffcf33;
+    box-shadow: 2px 2px 2px #ffcf33;
+}
+:checked .radio-group input[typed="radio"] {
+    color: #55680D;
+}
+:first-of-type .radio-group input[typed="radio"] {
+    list-style-type: circle;
+}
