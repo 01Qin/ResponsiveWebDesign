@@ -1,10 +1,10 @@
-.input:focus, .textarea:focus {
+.input, .textarea:focus {
     border-color: #55680D;
 }
-.input:invalid, .textarea:invalid {
+.textarea .select, .textarea:invalid {
     border-color: red;
 }
-.input:valid, .textarea:valid {
+.input, .textarea:valid {
     border-color: green;
 }
 button:hover {
