@@ -17,6 +17,16 @@ label {
     margin-bottom: 10px;
     font-weight: bold;
 }
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF1493;
+    font-size: 14px;
+    border: none;
+}
+button:hover {
+    background-color: #55680D;
+}
 
 .radio-group {
     display: flex;
@@ -29,7 +39,9 @@ label {
     box-shadow: 2px 2px 2px #ffcf33;
 }
 .radio-group input[typed="radio"]:checked {
-    color: #55680D;
+    border-color: #55680D;
+    background-color: #888989;
+    box-shadow: 2px 2px 2px #888888;
 }
 .radio-group input[typed="radio"]:first-of-type  {
     list-style-type: circle;
@@ -42,22 +54,13 @@ input, select, textarea {
     border-radius: 5px;
     box-sizing: border-box;
 }
-input, textarea:focus {
-    border-color: #55680D;
+input:focus, textarea:focus {
+    border: 2px solid #55680D;
+    outline: none;
 }
-input, select, textarea:invalid {
-    border-color: #55680D;
+input:invalid, select:invalid, textarea:invalid {
+    border-color: red;
 }
-input, textarea:valid {
+input:valid, select:valid, textarea:valid {
     border-color: green;
-}
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #FF1493;
-    font-size: 14px;
-    border: none;
-}
-button:hover {
-    background-color: #55680D;
 }
