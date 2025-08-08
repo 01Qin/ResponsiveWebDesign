@@ -20,7 +20,7 @@ label {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #FF1493;
+    background-color: darkgreen;
     font-size: 14px;
     border: none;
 
@@ -39,7 +39,7 @@ button:hover {
 .radio-group input[type="radio"] {
     width: 25px;
     appearance: none;
-    border: 2px solid #FF1493;
+    border: 2px solid goldenrod;
 }
 .radio-group input[type="radio"]:checked {
     border-color: #55680D;
@@ -66,7 +66,7 @@ input:focus, textarea:focus {
     outline: none;
 }
 input:invalid, select:invalid, textarea:invalid {
-    border-color: red;
+    border-color: goldenrod;
 }
 input:valid, select:valid, textarea:valid {
     border-color: green;
