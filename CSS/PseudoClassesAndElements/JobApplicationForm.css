@@ -33,18 +33,18 @@ button:hover {
     align-items: center;
     margin-top: 10px;
 }
-.radio-group input[typed="radio"] {
+.radio-group input[type="radio"] {
     width: 25px;
     appearance: none;
     border: 2px solid #FF1493;
 }
-.radio-group input[typed="radio"]:checked {
-    border: 2px solid #55680D;
+.radio-group input[type="radio"]:checked {
+    border-color: #55680D;
     background-color: #888989;
     box-shadow: 0 0 2px darkgreen;
 }
-.radio-group input[typed="radio"]:checked + label {
-    color: #55680D;
+.radio-group input[type="radio"]:checked + label {
+    border: 2px solid #55680D;
 }
 input:first-of-type  {
     border-top-left-radius: 4px;
