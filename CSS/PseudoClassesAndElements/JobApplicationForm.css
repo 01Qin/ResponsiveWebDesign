@@ -5,7 +5,7 @@ body {
     padding: 10px;
 }
 .container {
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 20px;
     background-color: floralwhite;
@@ -23,15 +23,18 @@ button {
     background-color: #FF1493;
     font-size: 14px;
     border: none;
+
 }
 button:hover {
     background-color: #55680D;
+
 }
 
 .radio-group {
     display: flex;
     align-items: center;
     margin-top: 10px;
+
 }
 .radio-group input[type="radio"] {
     width: 25px;
@@ -44,7 +47,7 @@ button:hover {
     box-shadow: 0 0 2px darkgreen;
 }
 .radio-group input[type="radio"]:checked + label {
-    border: 2px solid #55680D;
+    color: green;
 }
 input:first-of-type  {
     border-top-left-radius: 4px;
