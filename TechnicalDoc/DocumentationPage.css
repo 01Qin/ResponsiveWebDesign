@@ -52,6 +52,20 @@ header {
     font-size: 50px;
     font-weight: bold;
 }
+code {
+    display: block;
+    text-align: left;
+    white-space: pre;
+    word-break: normal;
+    line-height: 1.5;
+    background-color: #fff;
+    padding: 16px;
+    margin: 16px 0;
+    border-radius: 4px;
+}
+.image {
+    width: 100%;
+}
 @media print {
     body {
         background: #000;
