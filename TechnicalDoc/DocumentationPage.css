@@ -2,33 +2,41 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: floralwhite;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    line-height: 5rem;
 }
 section {
     margin-top: 40px;
 }
 #navbar {
-    background-color: lightgray;
+    background-color: floralwhite;
     width: 100%;
     border-bottom: 1px solid;
+    font-weight: bold;
+    resize: horizontal;
+    overflow-x: scroll;
 }
 #navbar li {
     color: white;
     border-top: 1px solid #888989;
     list-style: none;
+    font-size: calc(10px + 2vmin);
 }
 #navbar a {
     cursor: pointer;
     text-decoration: none;
-    padding: 14px 16px;
-    display: inline-block;
+    padding: 14px 30px;
+    display: block;
     color: darkslategray;
-    font-size: 16px;
+    font-size: 32px;
     transition: text-indent 1s ease-in-out;
 }
 #navbar a:hover {
@@ -38,10 +46,15 @@ section {
 }
 p {
     margin: 10px;
+    font-size: calc(10px + 2vmin);
 }
 ol {
     margin: 0 auto;
+    font-size: calc(10px + 2vmin);
+    list-style-type: disc;
+    padding-left: 45px;
 }
+
 #main-doc {
     margin: 0 5px;
 }
@@ -57,17 +70,41 @@ code {
     text-align: left;
     white-space: pre;
     word-break: normal;
+    word-wrap: normal;
     line-height: 1.5;
     background-color: #fff;
-    padding: 16px;
-    margin: 16px 0;
+    padding: 0 16px;
+    margin: 16px;
     border-radius: 4px;
+    font-size: calc(10px + 2vmin);
 }
 .image {
     width: 100%;
+    margin-top: 30px;
+    position: relative;
 }
-@media print {
+footer {
+    padding: 30px;
+    color: lightseagreen;
+    margin: 10px;
+    text-align: center;
+    font-size: calc(10px + 2vmin);
+}
+@media only screen and (min-width: 800px) {
     body {
-        background: #000;
+        flex-direction: row;
+    }
+    #navbar {
+        width: 300px;
+        height: 100%;
+        position: fixed;
+    }
+    .image {
+        width: 70%;
+        margin-left: 40px;
+    }
+    #main-doc {
+        margin: 0 30px;
+        margin-left: 450px;
     }
 }
