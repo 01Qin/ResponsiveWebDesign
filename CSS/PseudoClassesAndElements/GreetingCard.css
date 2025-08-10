@@ -11,4 +11,13 @@ body {
     margin: 0 auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px gray;
+    /* If there are multiple properties that have a transition, you can write the values for each separated by a comma:
+    p {
+        transition: property1 0.1s, property2 0.6s linear;
+    }*/
+    transition: transform 0.3s, background-color 0.3s ease;
+}
+.card:hover {
+    background-color: khaki;
+    transform: scale(1.1);
 }
