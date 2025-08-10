@@ -45,7 +45,18 @@ h1::after {
     border-radius: 5px;
     color: white;
     background-color: #000029;
+    transition: background-color 0.3s, font-weight, 0.2s ease;
+
 }
 .card-links a:hover {
     background-color: #FF1493;
+}
+.card-links a:active {
+    background-color: wheat;
+}
+.card-links a:focus {
+    outline: 2px solid lightgoldenrodyellow;
+}
+.card-links a:visited {
+    color: pink;
 }
