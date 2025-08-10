@@ -60,3 +60,14 @@ h1::after {
 .card-links a:visited {
     color: pink;
 }
+section {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+}
+section:hover {
+    /* this function skews the element horizontally. */
+    transform: skewX(10deg);
+}
