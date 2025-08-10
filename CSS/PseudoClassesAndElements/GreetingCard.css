@@ -66,8 +66,13 @@ section {
     background-color: whitesmoke;
     padding: 20px;
     border-radius: 10px;
+    display: none;
 }
 section:hover {
     /* this function skews the element horizontally. */
     transform: skewX(10deg);
+}
+/* the section elements are visible only when the links are clicked. */
+section:target {
+    display: block;
 }
