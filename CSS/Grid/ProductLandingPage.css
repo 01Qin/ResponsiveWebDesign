@@ -1,0 +1,11 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media screen {
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #nav-bar {
+        transition: background-color 1s ease;
+    }
+}
