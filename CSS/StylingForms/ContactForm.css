@@ -1,0 +1,28 @@
+.form-container {
+    background-color: floralwhite;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+label {
+    margin: 10px 0;
+    color: goldenrod;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+button {
+    background-color: #55680D;
+    font-size: 14px;
+}
+button:hover {
+    background-color: #FF1493;
+    transition: font-size 0.5s ease;
+}
