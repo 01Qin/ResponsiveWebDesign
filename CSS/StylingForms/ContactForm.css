@@ -1,3 +1,8 @@
+body {
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
 h2 {
     text-align: center;
 }
@@ -6,11 +11,14 @@ h2 {
     width: 30%;
     padding: 10px;
     border-radius: 10px;
+    justify-content: center;
+    align-items: center;
 }
 label {
     margin: 10px 0;
     color: #00471b;
     font-weight: bold;
+    text-align: center;
 }
 input {
     width: 100%;
@@ -26,7 +34,7 @@ button {
     background-color: #55680D;
     font-size: 25px;
     position: relative;
-    display: block;
+    align-items: center;
 }
 button:hover {
     background-color: #FF1493;
