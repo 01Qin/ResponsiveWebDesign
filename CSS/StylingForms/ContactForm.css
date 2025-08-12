@@ -1,12 +1,16 @@
+h2 {
+    text-align: center;
+}
 .form-container {
     background-color: floralwhite;
-    width: 100%;
+    width: 30%;
     padding: 10px;
     border-radius: 10px;
 }
 label {
     margin: 10px 0;
     color: #00471b;
+    font-weight: bold;
 }
 input {
     width: 100%;
@@ -20,7 +24,9 @@ textarea {
 }
 button {
     background-color: #55680D;
-    font-size: 14px;
+    font-size: 25px;
+    position: relative;
+    display: block;
 }
 button:hover {
     background-color: #FF1493;
