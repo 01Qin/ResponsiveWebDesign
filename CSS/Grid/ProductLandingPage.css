@@ -1,5 +1,8 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media screen {
     body {
@@ -7,5 +10,9 @@ body {
     }
     #nav-bar {
         transition: background-color 1s ease;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
     }
 }
