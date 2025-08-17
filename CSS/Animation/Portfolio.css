@@ -93,14 +93,24 @@ section {
     justify-content: center;
     background-color: var(--background);
     color: var(--text);
+    text-decoration: none;
     border-radius: 5px;
-    box-shadow: 8px 8px 8px rgba(100, 100, 100, 0.3);
+    box-shadow: 8px 8px 8px rgba(255, 192, 203, 0.3);
 
 }
 #projects .project-tile img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+#projects .project-tile span {
+    opacity: 0;
+    padding: 0 5px;
+}
+#projects .project-tile:hover span {
+    opacity: 100%;
+    color: var(--text);
+    transition: opacity 0.5s ease-in-out;
 }
 
 @media (prefers-reduced-motion: no-preference) {
