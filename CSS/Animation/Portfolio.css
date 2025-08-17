@@ -64,6 +64,20 @@ section {
     margin: 24px 0;
     font-style: italic;
 }
+#projects {
+    background-color: var(--text);
+    color: var(--navtext);
+}
+#projects h1 {
+    border-bottom: 5px solid var(--navtext);
+    width: fit-content;
+    margin: auto;
+
+}
+#projects .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
 #projects .project-tile img {
     height: 100%;
     width: 100%;
@@ -75,6 +89,7 @@ section {
     display: flex;
     flex-direction: column;
 }
+
 @media (prefers-reduced-motion: no-preference) {
     body {
         animation-duration: 1s;
