@@ -77,17 +77,30 @@ section {
 #projects .projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    padding: 30px;
+    place-items: center;
+    margin: auto;
+    max-width: 1200px;
 }
-#projects .project-tile img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
+
 #projects .project-tile  {
     height: 525px;
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background);
+    color: var(--text);
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px rgba(100, 100, 100, 0.3);
+
+}
+#projects .project-tile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 @media (prefers-reduced-motion: no-preference) {
