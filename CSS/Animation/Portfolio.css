@@ -64,6 +64,17 @@ section {
     margin: 24px 0;
     font-style: italic;
 }
+#projects .project-tile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#projects .project-tile  {
+    height: 525px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 @media (prefers-reduced-motion: no-preference) {
     body {
         animation-duration: 1s;
