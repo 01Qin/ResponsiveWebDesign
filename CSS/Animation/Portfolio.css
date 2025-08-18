@@ -1,7 +1,7 @@
 :root {
     --nav: #0e172c;
     --navtext: #fffffe;
-    --stroke: #0e172c;
+    --stroke: #d9d4e7;
     --background: #fec7d7;
     --text: #0e172c;
 }
@@ -112,7 +112,25 @@ section {
     color: var(--text);
     transition: opacity 0.5s ease-in-out;
 }
-
+.show-all {
+    text-decoration: none;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 0 15px;
+    background-color: var(--background);
+    color: var(--text);
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.show-all:hover {
+    background-color: var(--text);
+    color: var(--stroke);
+}
 @media (prefers-reduced-motion: no-preference) {
     body {
         animation-duration: 1s;
