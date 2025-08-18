@@ -7,6 +7,7 @@
 }
 * {
     margin: 0;
+    scroll-behavior: smooth;
 }
 body {
     font-family: "Montserrat", BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
@@ -105,7 +106,7 @@ section {
 }
 #projects .project-tile span {
     opacity: 0;
-    padding: 0 5px;
+    padding: 0 3px;
 }
 #projects .project-tile:hover span {
     opacity: 100%;
@@ -153,7 +154,7 @@ section {
 #contact .social-media {
     text-decoration: none;
     color: var(--text);
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.3s ease-in-out;
     display: flex;
     align-items: center;
     margin: 30px;
