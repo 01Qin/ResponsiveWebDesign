@@ -1,0 +1,11 @@
+#email {
+    padding: 50px;
+    margin-top: 50px;
+    width: 500px;
+    border: 2px solid #ccc;
+}
+#confidential {
+    padding: 50px;
+    margin-left: auto;
+    border: #FF1493 1px solid;
+}
