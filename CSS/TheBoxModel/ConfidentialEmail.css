@@ -3,9 +3,23 @@
     margin-top: 50px;
     width: 500px;
     border: 2px solid #ccc;
+    box-sizing: border-box;
 }
 #confidential {
     padding: 50px;
-    margin-left: auto;
+    margin-left: 20px;
     border: #FF1493 1px solid;
+    display: inline-block;
+    transform: scaleY(0.3);
+}
+#top-secret {
+    padding: 50px;
+    margin-left: 20px;
+    transform: scaleY(0.3);
+    border: #FF1493 1px solid;
+    display: inline-block;
+}
+.blurred {
+    padding: 50px;
+    filter: blur(3px);
 }
