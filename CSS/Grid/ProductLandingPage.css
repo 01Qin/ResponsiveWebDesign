@@ -1,6 +1,7 @@
 :root {
-    --white: #fffffe;
+    --headline: #094067;
     --text: #5f6c7b;
+    --background: #fffffe;
 }
 * {
     margin: 0;
@@ -17,7 +18,7 @@
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: var(--white);
+    background-color: var(--headline);
     padding: 10px;
 }
 .nav-links {
@@ -33,11 +34,17 @@
     display: flex;
     align-items: center;
 }
+.the-product {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-family: "fraunces", serif;
+}
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--background);
 }
 @media screen {
     body {
