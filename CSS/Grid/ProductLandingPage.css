@@ -1,3 +1,24 @@
+:root {
+    --white: floralwhite;
+}
+* {
+    margin: 0;
+}
+#header-img {
+    width: 60px;
+    object-fit: contain;
+}
+#nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--white);
+    padding: 10px;
+}
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
