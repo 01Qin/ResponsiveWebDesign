@@ -46,6 +46,18 @@ body {
     align-items: center;
     background-color: var(--background);
 }
+section::before {
+    display: block;
+    content: "";
+    margin-top: -100px;
+    height: 100px;
+    visibility: hidden;
+    pointer-events: none;
+}
+section {
+    margin: 40px 20px;
+
+}
 @media screen {
     body {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
