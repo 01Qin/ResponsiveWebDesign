@@ -3,6 +3,7 @@
     --text: #5f6c7b;
     --background: #fffffe;
     --border-color: #d8eefe;
+    --button-background: #3da9fc;
 }
 * {
     margin: 0;
@@ -49,6 +50,11 @@ input {
     border-radius: 5px;
     border: 1px solid var(--border-color);
 }
+#submit {
+    background-color: var(--button-background);
+    color: var(--background);
+    cursor: pointer;
+}
 body {
     display: flex;
     justify-content: center;
@@ -67,7 +73,10 @@ section {
     margin: 40px 20px;
     text-align: center;
 
-
+}
+h2 {
+    font-family: "fraunces", serif;
+    margin-bottom: 10px;
 }
 @media screen {
     body {
