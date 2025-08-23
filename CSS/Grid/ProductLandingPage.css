@@ -2,6 +2,7 @@
     --headline: #094067;
     --text: #5f6c7b;
     --background: #fffffe;
+    --border-color: #d8eefe;
 }
 * {
     margin: 0;
@@ -40,6 +41,14 @@
     font-weight: 700;
     font-family: "fraunces", serif;
 }
+#email-section {
+    margin-top: 100px;
+}
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+}
 body {
     display: flex;
     justify-content: center;
@@ -48,7 +57,7 @@ body {
 }
 section::before {
     display: block;
-    content: "";
+    content: " ";
     margin-top: -100px;
     height: 100px;
     visibility: hidden;
@@ -56,6 +65,8 @@ section::before {
 }
 section {
     margin: 40px 20px;
+    text-align: center;
+
 
 }
 @media screen {
