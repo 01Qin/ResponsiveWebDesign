@@ -78,6 +78,9 @@ h2 {
     font-family: "fraunces", serif;
     margin-bottom: 10px;
 }
+.icon {
+    color: var(--button-background);
+}
 @media screen {
     body {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
