@@ -80,6 +80,17 @@ h2 {
 }
 .icon {
     color: var(--button-background);
+    margin-right: 30px;
+}
+#features {
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+}
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 @media screen {
     body {
