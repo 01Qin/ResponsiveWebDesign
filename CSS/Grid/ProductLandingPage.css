@@ -56,7 +56,7 @@ input {
     cursor: pointer;
 }
 body {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     background-color: var(--background);
@@ -92,15 +92,6 @@ h2 {
     align-items: center;
     justify-content: center;
 }
-@media screen {
-    body {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    #nav-bar {
-        transition: background-color 1s ease;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
+#video {
+    width: 100%;
 }
