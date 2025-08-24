@@ -95,3 +95,15 @@ h2 {
 #video {
     width: 100%;
 }
+.product-image {
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px 10px 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product1 {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1353048590i/6334.jpg");
+}
