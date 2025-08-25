@@ -107,3 +107,26 @@ h2 {
 .product1 {
     background-image: url("https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1353048590i/6334.jpg");
 }
+.card {
+    background-color: var(--background);
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.inner-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.content {
+    font-family: "fraunces", serif;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
