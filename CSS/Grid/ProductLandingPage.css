@@ -107,6 +107,12 @@ h2 {
 .product1 {
     background-image: url("https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1353048590i/6334.jpg");
 }
+.product2 {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1545421684i/43306206.jpg");
+}
+.product3 {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1597257181i/49046267.jpg");
+}
 .card {
     background-color: var(--background);
     border-radius: 10px;
@@ -139,4 +145,28 @@ h2 {
 .old-price {
     text-decoration: line-through;
     color: var(--text);
+}
+.author {
+    font-family: "fraunces", serif;
+    letter-spacing: 5px;
+    color: var(--text);
+    text-decoration: underline;
+}
+.header {
+    font-family: "fraunces", serif;
+    margin: 10px 0;
+    color: var(--text);
+}
+.add {
+    background-color: var(--button-background);
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    color: var(--border-color);
+    font-size: 20px;
+    font-family: "fraunces", serif;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
