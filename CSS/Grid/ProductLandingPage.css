@@ -4,6 +4,7 @@
     --background: #fffffe;
     --border-color: #d8eefe;
     --button-background: #3da9fc;
+    --paragraph: #5f6c7b;
 }
 * {
     margin: 0;
@@ -128,7 +129,7 @@ h2 {
 }
 .content {
     font-family: "fraunces", serif;
-    color: var(--text);
+    color: var(--paragraph);
     margin-bottom: 10px;
 }
 .flex {
