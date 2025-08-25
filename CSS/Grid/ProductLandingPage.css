@@ -130,3 +130,13 @@ h2 {
     align-items: center;
     margin-bottom: 10px;
 }
+.main-price {
+    margin-right: 20px;
+    font-size: 30px;
+    font-family: "fraunces", serif;
+    color: var(--text);
+}
+.old-price {
+    text-decoration: line-through;
+    color: var(--text);
+}
