@@ -1,6 +1,5 @@
 :root {
     --headline: #094067;
-    --text: #5f6c7b;
     --background: #fffffe;
     --border-color: #d8eefe;
     --button-background: #3da9fc;
@@ -30,7 +29,7 @@
 }
 .nav-links a {
     text-decoration: none;
-    color: var(--text);
+    color: var(--paragraph);
     padding: 0 10px;
 }
 .logo-container {
