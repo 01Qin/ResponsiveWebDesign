@@ -40,11 +40,9 @@
     font-size: 25px;
     margin-left: 10px;
     font-weight: 700;
-    font-family: "fraunces", serif;
+    font-family: "Montserrat", serif;
 }
-#email-section {
-    margin-top: 100px;
-}
+
 input {
     padding: 10px;
     border-radius: 5px;
@@ -72,7 +70,9 @@ section::before {
 section {
     margin: 40px 20px;
     text-align: center;
-
+}
+#email-section {
+    margin-top: 100px;
 }
 h2 {
     font-family: "fraunces", serif;
@@ -153,7 +153,7 @@ h2 {
     text-decoration: underline;
 }
 .header {
-    font-family: "fraunces", serif;
+    font-family: "Lato", serif;
     margin: 10px 0;
     color: var(--text);
 }
