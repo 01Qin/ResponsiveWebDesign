@@ -82,15 +82,17 @@ h2 {
     color: var(--button-background);
     margin-right: 30px;
 }
-#features {
-    text-align: left;
-    max-width: 800px;
-    margin: auto;
-}
 .feature {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px;
+    font-family: "Montserrat", serif;
+}
+#features {
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
 }
 #video {
     width: 100%;
@@ -117,13 +119,12 @@ h2 {
     background-color: var(--background);
     border-radius: 10px;
     width: 90%;
-    margin: auto;
-    margin-bottom: 10px;
+    margin: auto auto 10px;
 }
 .inner-card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     padding: 10px;
 }
 .content {
@@ -140,7 +141,7 @@ h2 {
     margin-right: 20px;
     font-size: 30px;
     font-family: "fraunces", serif;
-    color: var(--text);
+    color: var(--button-background);
 }
 .old-price {
     text-decoration: line-through;
@@ -149,13 +150,13 @@ h2 {
 .author {
     font-family: "fraunces", serif;
     letter-spacing: 5px;
-    color: var(--text);
+    color: var(--paragraph);
     text-decoration: underline;
 }
 .header {
     font-family: "Lato", serif;
     margin: 10px 0;
-    color: var(--text);
+    color: var(--headline);
 }
 .add {
     background-color: var(--button-background);
