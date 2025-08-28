@@ -178,6 +178,14 @@ h2 {
 }
 @media only screen and (450px < width < 600px) {
     .card {
+        font-size: 0.85rem;
+    }
+    .product-image {
+        height: 400px;
+    }
+}
+@media only screen and (450px <= width) {
+    .card {
         display: flex;
         max-width: 525px;
     }
