@@ -151,7 +151,7 @@ h2 {
     font-family: "fraunces", serif;
     letter-spacing: 5px;
     color: var(--paragraph);
-    text-decoration: underline;
+    text-transform: uppercase;
 }
 .header {
     font-family: "Lato", serif;
@@ -168,7 +168,7 @@ h2 {
     color: var(--border-color);
     font-size: 20px;
     font-family: "fraunces", serif;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 10px;
 }
 @media only screen and (min-width: 600px) {
