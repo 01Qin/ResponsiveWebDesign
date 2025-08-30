@@ -8,16 +8,16 @@
 }
 #confidential {
     padding: 50px;
-    margin-left: 20px;
-    border: #FF1493 1px solid;
+    margin-left: 100px;
+    border: #FF1493 5px solid;
     display: inline-block;
-    transform: scaleY(0.3);
+    transform: scaleY(0.7);
 }
 #top-secret {
     padding: 50px;
-    margin-left: 20px;
+    margin-left: 200px;
     transform: scaleY(0.3);
-    border: #FF1493 1px solid;
+    border: #FF1493 5px solid;
     display: inline-block;
 }
 .blurred {
