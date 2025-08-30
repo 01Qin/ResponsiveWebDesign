@@ -11,14 +11,18 @@
     margin-left: 100px;
     border: #FF1493 5px solid;
     display: inline-block;
-    transform: scaleY(0.7);
+    transform: rotate(-20deg);
+    font-size: 20px;
+    color: red;
 }
 #top-secret {
     padding: 50px;
     margin-left: 200px;
-    transform: scaleY(0.3);
+    transform: rotate(15deg);
     border: #FF1493 5px solid;
     display: inline-block;
+    font-size: 30px;
+    color: red;
 }
 .blurred {
     padding: 50px;
