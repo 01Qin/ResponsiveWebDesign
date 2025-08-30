@@ -1,8 +1,9 @@
 #email {
+    background-color: seashell;
     padding: 50px;
-    margin-top: 50px;
+    margin: 50px auto;
     width: 500px;
-    border: 2px solid #ccc;
+    border: 2px solid #094067;
     box-sizing: border-box;
 }
 #confidential {
