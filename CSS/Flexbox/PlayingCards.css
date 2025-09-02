@@ -37,4 +37,8 @@ body {
 }
 .right {
     align-self: flex-end;
+
+}
+.flipped {
+    transform: rotate(180deg);
 }
