@@ -42,3 +42,6 @@ body {
 .flipped {
     transform: rotate(180deg);
 }
+.red {
+    color: red;
+}
