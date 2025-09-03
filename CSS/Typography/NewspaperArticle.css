@@ -1,6 +1,9 @@
 html {
     font-size: 24px;
 }
+body {
+    background-color: floralwhite;
+}
 .newspaper {
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
@@ -9,10 +12,20 @@ html {
     font-size: 2rem;
     font-family: "Times New Roman", serif;
     text-transform: uppercase;
+    text-align: center;
+    margin-top: 200px;
+    font-weight: bold;
+}
+.date {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
 }
 .headline {
     font-size: 2em;
     font-weight: bold;
+
 }
 .sub-headline {
     font-weight: 100;
