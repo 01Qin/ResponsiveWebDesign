@@ -5,8 +5,13 @@ body {
     background-color: floralwhite;
 }
 .newspaper {
+    background-color: white;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
+    border: 5px solid #00471b;
+    border-radius: 10px;
+    box-shadow: 5px 10px darkolivegreen;
+    margin-top: 150px;
 }
 .name {
     font-size: 2rem;
@@ -31,14 +36,17 @@ body {
     font-weight: 100;
     font-style: italic;
     font-size: 1.5em;
+    margin: 10px 10px 10px 10px;
 }
 .author {
     font-weight: bold;
     text-transform: uppercase;
+    margin: 10px 10px 10px;
 }
 .text {
     text-indent: 20px;
     line-height: 2em;
+    font-size: 1em;
 }
 .text::first-letter {
     font-weight: bold;
