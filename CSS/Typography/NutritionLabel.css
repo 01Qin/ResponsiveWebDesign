@@ -10,7 +10,11 @@ html {
     the browser includes the border and padding when determining an element's size.
     to solve this, reset the box model by creating a * selector. */
     width: 270px;
+    /* margin: top, right, bottom, left
+    margin: top-bottom, left-right
+    margin: top, left-right, bottom */
     margin: 20px auto;
+    /* padding: top-bottom, left-right */
     padding: 0 7px;
 }
 * {
