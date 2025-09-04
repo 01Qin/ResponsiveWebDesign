@@ -20,7 +20,7 @@ html {
 * {
     box-sizing: border-box;
 }
-h1 {
+header h1 {
     /* make h1 text bolder
     font-weight: 800; */
     text-align: center;
