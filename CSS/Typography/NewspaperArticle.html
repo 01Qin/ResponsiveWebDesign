@@ -8,13 +8,27 @@
 </head>
 <body>
 <div class="newspaper">
-    <div class="name">Daily Chuckles</div>
+    <div class="name">Switched Networks and Routing</div>
     <div class="date">3 September 2025</div>
-    <div class="headline"></div>
-    <div class="sub-headline"></div>
-    <div class="article"></div>
-    <div class="author"></div>
-    <div class="text"></div>
+    <div class="headline">Basic Device Configuration</div>
+    <div class="sub-headline">Configure a Switch with Initial Settings</div>
+    <div class="article">Switch Boot Sequence</div>
+    <div class="author">By Quinn</div>
+    <div class="text">
+        <p>Before you can configure a switch, you need to turn it on and allow it to go through the five-step boot
+            sequence. This topic covers the basics of configuring a switch and includes a lab at the end.</p>
+        <p>After a Cisco switch is powered on, it goes through the following five-step boot sequence:</p>
+        <p>Step 1: First, the switch loads a power-on self-test (POST) program stored in ROM. POST checks the CPU
+            subsystem. It tests the CPU, DRAM, and the portion of the flash device that makes up the flash file
+            system.</p>
+        <p>Step 2: Next, the switch loads the boot loader software. The boot loader is a small program stored in ROM
+            that is run immediately after POST successfully completes.</p>
+        <p>Step 3: The boot loader performs low-level CPU initialization. It initializes the CPU registers, which
+            control where physical memory is mapped, the quantity of memory, and its speed.</p>
+        <p>Step 4: The boot loader initializes the flash file system on the system board.</p>
+        <p>Step 5: Finally, the boot loader locates and loads a default IOS operating system software image into memory
+            and gives control of the switch over to the IOS.</p>
+    </div>
 </div>
 
 </body>
