@@ -4,6 +4,7 @@
     height: 400px;
     background-color: #fec7d7;
     border: 5px solid #FF1493;
+    z-index: 1;
 }
 #chimney {
     position: absolute;
@@ -11,6 +12,8 @@
     height: 100px;
     border: 5px solid #1b1b32;
     background-color: #0e172c;
+    top: -100px;
+    z-index: 2;
 }
 #roof {
     position: absolute;
