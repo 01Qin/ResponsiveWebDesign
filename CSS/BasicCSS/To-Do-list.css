@@ -1,43 +1,64 @@
 
 body {
-    width: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
-    background-color: #d0d0d5;
-    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 20px;
+    color: #333;
 }
-li {
-    display: block;
-    line-height: 2;
+
+ul.todo-list {
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
-a {
-    text-decoration: none;
-    color: blue;
+
+ul.todo-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    border-bottom: 1px solid #eee;
 }
-/*
-a:link — default state of a link
-a:visited — after the link has been clicked
-a:hover — when the mouse is over the link
-a:active — when the link is being clicked
-*/
-a:hover {
-    color: #FF1493;
+
+ul.todo-list li:last-child {
+    border-bottom: none;
 }
-a:visited {
-    color: blue;
+
+label {
+    font-size: 16px;
+    cursor: pointer;
 }
-a:active {
-    color: mediumvioletred;
-}
-/* when a user navigates to a link using the keyboard (like pressing Tab), or clicks on it, the link should display
-a visible outline to indicate it is currently focused.
-:focus pseudo-class */
-a:focus {
-    outline: 2px solid #FF1493;
-}
+
 input[type="checkbox"] {
-    transform: scale(2.5);
-    margin: 10px;
-    display: inline-block;
-    position: relative;
+    margin-left: 10px;
+    transform: scale(1.2);
+    cursor: pointer;
+    align-items: center;
+}
+
+ul.sub-item {
+    list-style: none;
+    margin: 8px 0 0 20px;
+    padding: 0;
+}
+
+.sub-item-link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+}
+
+.sub-item-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+.sub-item-link:active {
+    color: #356eaf;
+}
+.sub-item-link:focus {
+    color: #888989;
 }
