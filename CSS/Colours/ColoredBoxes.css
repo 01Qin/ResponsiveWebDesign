@@ -1,5 +1,8 @@
 body {
     background-color:  #f4f4f4;
+    padding-top: 50px;
+    justify-content: center; /* horizontal centre */
+    display: flex;
 }
 .color-box {
     width: 500px;
