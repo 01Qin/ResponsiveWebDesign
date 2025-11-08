@@ -13,6 +13,10 @@
     --welcome-sign-color: #55680D;
     --grass-color: #116C31;
 }
+/* Universal selector, applies to all elements on the page.*/
+*{
+    box-sizing: border-box;
+}
 #house {
     position: relative;
     width: 500px;
