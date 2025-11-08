@@ -9,6 +9,9 @@
     --window-border: #ffcf33;
     --door-color: #d0d0d5;
     --door-border: #888989;
+    --sky-color: #356eaf;
+    --welcome-sign-color: #55680D;
+    --grass-color: #116C31;
 }
 #house {
     position: relative;
@@ -61,4 +64,5 @@
     background-color: var(--door-color);
     bottom: 0;
     right: 200px;
+
 }
