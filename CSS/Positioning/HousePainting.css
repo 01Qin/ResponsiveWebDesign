@@ -1,17 +1,29 @@
+:root {
+    --house-color: #fec7d7;
+    --house-border: #FF1493;
+    --chimney-color: #0e172c;
+    --chimney-border: #1b1b32;
+    --roof-color: #000029;
+    --roof-border: #0a0a23;
+    --window-colour: #b5a584;
+    --window-border: #ffcf33;
+    --door-color: #d0d0d5;
+    --door-border: #888989;
+}
 #house {
     position: relative;
     width: 500px;
     height: 400px;
-    background-color: #fec7d7;
-    border: 5px solid #FF1493;
+    background-color: var(--house-color);
+    border: 5px solid var(--house-border);
     z-index: 1;
 }
 #chimney {
     position: absolute;
     width: 50px;
     height: 100px;
-    border: 5px solid #1b1b32;
-    background-color: #0e172c;
+    border: 5px solid var(--chimney-border);
+    background-color: var(--chimney-color);
     top: -100px;
     z-index: 2;
 }
@@ -19,16 +31,16 @@
     position: absolute;
     width: 600px;
     height: 100px;
-    border: 5px solid #0a0a23;
-    background-color: #000029;
+    border: 5px solid var(--roof-border);
+    background-color: var(--roof-color);
     top: 0;
 }
 #window-1 {
     position: absolute;
     width: 100px;
     height: 100px;
-    border: 5px solid #ffcf33;
-    background-color: #b5a584;
+    border: 5px solid var(--window-border);
+    background-color: var(--window-colour);
     left: 50px;
     top: 100px;
 }
@@ -36,8 +48,8 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    border: 5px solid #ffcf33;
-    background-color: #b5a584;
+    border: 5px solid var(--window-border);
+    background-color: var(--window-colour);
     right: 50px;
     top: 100px;
 }
@@ -45,8 +57,8 @@
     position: absolute;
     width: 100px;
     height: 200px;
-    border: 5px solid #888989;
-    background-color: #d0d0d5;
+    border: 5px solid var(--door-border);
+    background-color: var(--door-color);
     bottom: 0;
     right: 200px;
 }
