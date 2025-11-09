@@ -10,6 +10,7 @@
     --window-border: #ffcf33;
     --door-color: #d0d0d5;
     --door-border: #888989;
+    --door-knob: #3b3b4f;
     --sky-color: #356eaf;
     --welcome-sign-color: #55680D;
     --grass-color: #116C31;
@@ -92,5 +93,14 @@ body {
     bottom: 0%;
     right: 185px;
     transform: translateY(3px);
+}
 
+#door-knob {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: var(--door-knob);
+    border-radius: 50%;
+    top: 50%;
+    right: 5%;
 }
