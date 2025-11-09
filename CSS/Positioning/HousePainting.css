@@ -17,6 +17,13 @@
 *{
     box-sizing: border-box;
 }
+body {
+    background: linear-gradient(
+            var(--sky-color) 60%,
+            var(--grass-color) 60%,
+    );
+    height: 100vh;
+}
 #house {
     position: relative;
     width: 500px;
