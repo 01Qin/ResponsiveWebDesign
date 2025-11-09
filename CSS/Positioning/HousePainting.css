@@ -5,6 +5,7 @@
     --chimney-border: #1b1b32;
     --roof-color: #000029;
     --roof-border: #0a0a23;
+    --roof-fill: #094067;
     --window-colour: #b5a584;
     --window-border: #ffcf33;
     --door-color: #d0d0d5;
@@ -23,6 +24,9 @@ body {
             var(--grass-color) 60%,
     );
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #house {
     position: relative;
@@ -43,10 +47,22 @@ body {
 }
 #roof {
     position: absolute;
-    width: 600px;
+    width: 100%;
     height: 100px;
     border: 5px solid var(--roof-border);
-    background-color: var(--roof-color);
+    background: repeating-linear-gradient(
+            45deg,
+            var(--roof-border),
+            var(--roof-border) 2%,
+            transparent 2%,
+            transparent 5% ),
+            repeating-linear-gradient(
+            -45deg,
+            var(--roof-border),
+            var(--roof-border) 2%,
+            var(--roof-fill) 2%,
+            var(--roof-fill) 5% );
+    );
     top: 0;
 }
 #window-1 {
