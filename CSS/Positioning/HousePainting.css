@@ -1,8 +1,8 @@
 :root {
     --house-color: #fec7d7;
     --house-border: #FF1493;
-    --chimney-color: #0e172c;
-    --chimney-border: #1b1b32;
+    --chimney-color: #574D91;
+    --chimney-border: #14181D;
     --roof-color: #000029;
     --roof-border: #0a0a23;
     --roof-fill: #094067;
@@ -18,6 +18,7 @@
 /* Universal selector, applies to all elements on the page.*/
 *{
     box-sizing: border-box;
+
 }
 body {
     background: linear-gradient(
