@@ -20,5 +20,5 @@ A curated collection of HTML and CSS projects demonstrating accessible design, s
 2. Open `index.html` in your browser.
 
 ## Author
-Quinn
+Quinn  
 IoT UI Engineer / Cloud Integration Developer
