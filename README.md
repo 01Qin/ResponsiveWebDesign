@@ -21,4 +21,4 @@ A curated collection of HTML and CSS projects demonstrating accessible design, s
 
 ## Author
 Quinn
-
+IoT UI Engineer / Cloud Integration Developer
