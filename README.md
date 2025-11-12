@@ -3,6 +3,37 @@
 ## Overview
 A curated collection of HTML and CSS projects demonstrating accessible design, semantic structure, and layout mastery.
 
+## Folder
+```
+html-css-portfolio/
+│
+├── index.html              ← portfolio homepage
+├── style.css               ← global styling
+├── README.md               ← overview and project guide
+│
+├── HTML/
+│   ├── BasicHTML/
+│   └── FormsAndTables/
+│
+└── CSS/
+    ├── AbsoluteAndRelativeUnits/
+    ├── Accessibility/
+    ├── Animation/
+    ├── AttributeSelectors/
+    ├── BasicCSS/
+    ├── Colours/
+    ├── Flexbox/
+    ├── Grid/
+    ├── Positioning/
+    ├── PseudoClassesAndElements/
+    ├── PseudoClassesAndElements/
+    ├── ResponsiveDesign/
+    ├── StylingForms/
+    ├── TheBoxModel/
+    ├── Transforms/
+    ├── Typography/
+    └── Variables/
+```
 ## Projects
 | Project | Description |
 |----------|-------------|
